@@ -1,0 +1,9 @@
+source;share/encoder_imu_ekf/hook/pythonpath.ps1
+source;share/encoder_imu_ekf/hook/pythonpath.dsv
+source;share/encoder_imu_ekf/hook/pythonpath.sh
+source;share/encoder_imu_ekf/hook/ament_prefix_path.ps1
+source;share/encoder_imu_ekf/hook/ament_prefix_path.dsv
+source;share/encoder_imu_ekf/hook/ament_prefix_path.sh
+source;../../build/encoder_imu_ekf/share/encoder_imu_ekf/hook/pythonpath_develop.ps1
+source;../../build/encoder_imu_ekf/share/encoder_imu_ekf/hook/pythonpath_develop.dsv
+source;../../build/encoder_imu_ekf/share/encoder_imu_ekf/hook/pythonpath_develop.sh

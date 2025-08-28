@@ -1,0 +1,24 @@
+[1.800s] Invoking command in '/home/jaeseok/ros2_ws/src/encoder_imu_ekf': PYTHONPATH=/home/jaeseok/ros2_ws/build/encoder_imu_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_imu_ekf build --build-base /home/jaeseok/ros2_ws/build/encoder_imu_ekf/build install --record /home/jaeseok/ros2_ws/build/encoder_imu_ekf/install.log --single-version-externally-managed install_data
+[2.433s] running egg_info
+[2.435s] writing ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/PKG-INFO
+[2.437s] writing dependency_links to ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/dependency_links.txt
+[2.437s] writing entry points to ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/entry_points.txt
+[2.439s] writing requirements to ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/requires.txt
+[2.439s] writing top-level names to ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/top_level.txt
+[2.444s] reading manifest file '../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/SOURCES.txt'
+[2.446s] writing manifest file '../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/SOURCES.txt'
+[2.448s] running build
+[2.448s] running build_py
+[2.448s] copying encoder_imu_ekf/serial_imu_encoder_node.py -> /home/jaeseok/ros2_ws/build/encoder_imu_ekf/build/lib/encoder_imu_ekf
+[2.448s] running install
+[2.451s] running install_lib
+[2.451s] copying /home/jaeseok/ros2_ws/build/encoder_imu_ekf/build/lib/encoder_imu_ekf/serial_imu_encoder_node.py -> /home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder_imu_ekf
+[2.452s] byte-compiling /home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder_imu_ekf/serial_imu_encoder_node.py to serial_imu_encoder_node.cpython-310.pyc
+[2.456s] running install_data
+[2.457s] running install_egg_info
+[2.462s] removing '/home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder_imu_ekf-0.0.1-py3.10.egg-info' (and everything under it)
+[2.463s] Copying ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info to /home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder_imu_ekf-0.0.1-py3.10.egg-info
+[2.466s] running install_scripts
+[2.526s] Installing serial_imu_encoder_node script to /home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/encoder_imu_ekf
+[2.528s] writing list of installed files to '/home/jaeseok/ros2_ws/build/encoder_imu_ekf/install.log'
+[2.656s] Invoked command in '/home/jaeseok/ros2_ws/src/encoder_imu_ekf' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/build/encoder_imu_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/encoder_imu_ekf build --build-base /home/jaeseok/ros2_ws/build/encoder_imu_ekf/build install --record /home/jaeseok/ros2_ws/build/encoder_imu_ekf/install.log --single-version-externally-managed install_data

@@ -1,0 +1,33 @@
+running develop
+Removing /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet-align.egg-link (link to .)
+running egg_info
+writing ../../build/pallet_align/pallet_align.egg-info/PKG-INFO
+writing dependency_links to ../../build/pallet_align/pallet_align.egg-info/dependency_links.txt
+writing entry points to ../../build/pallet_align/pallet_align.egg-info/entry_points.txt
+writing requirements to ../../build/pallet_align/pallet_align.egg-info/requires.txt
+writing top-level names to ../../build/pallet_align/pallet_align.egg-info/top_level.txt
+reading manifest file '../../build/pallet_align/pallet_align.egg-info/SOURCES.txt'
+writing manifest file '../../build/pallet_align/pallet_align.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pallet_align/aruco_detector_node.py -> /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align
+copying pallet_align/serial_sender_node.py -> /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align
+running install
+running install_lib
+creating /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align
+copying /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align/aruco_detector_node.py -> /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align
+copying /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align/serial_sender_node.py -> /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align
+copying /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align/__init__.py -> /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align
+byte-compiling /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align/aruco_detector_node.py to aruco_detector_node.cpython-310.pyc
+byte-compiling /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align/serial_sender_node.py to serial_sender_node.cpython-310.pyc
+byte-compiling /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/pallet_align -> /home/jaeseok/ros2_ws/install/pallet_align/share/ament_index/resource_index/packages
+copying package.xml -> /home/jaeseok/ros2_ws/install/pallet_align/share/pallet_align
+copying launch/pallet_align.launch.py -> /home/jaeseok/ros2_ws/install/pallet_align/share/pallet_align/launch
+running install_egg_info
+Copying ../../build/pallet_align/pallet_align.egg-info to /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align-0.1.0-py3.10.egg-info
+running install_scripts
+Installing aruco_detector_node script to /home/jaeseok/ros2_ws/install/pallet_align/lib/pallet_align
+Installing serial_sender_node script to /home/jaeseok/ros2_ws/install/pallet_align/lib/pallet_align
+writing list of installed files to '/home/jaeseok/ros2_ws/build/pallet_align/install.log'

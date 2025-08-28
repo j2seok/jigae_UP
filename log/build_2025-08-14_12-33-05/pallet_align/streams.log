@@ -1,0 +1,41 @@
+[1.768s] Invoking command in '/home/jaeseok/ros2_ws/build/pallet_align': PYTHONPATH=/home/jaeseok/ros2_ws/build/pallet_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jaeseok/ros2_ws/build/pallet_align/build
+[2.479s] running develop
+[2.888s] Removing /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet-align.egg-link (link to .)
+[3.041s] Invoked command in '/home/jaeseok/ros2_ws/build/pallet_align' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/build/pallet_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/jaeseok/ros2_ws/build/pallet_align/build
+[3.046s] Invoking command in '/home/jaeseok/ros2_ws/src/pallet_align': PYTHONPATH=/home/jaeseok/ros2_ws/build/pallet_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pallet_align build --build-base /home/jaeseok/ros2_ws/build/pallet_align/build install --record /home/jaeseok/ros2_ws/build/pallet_align/install.log --single-version-externally-managed install_data --force
+[3.681s] running egg_info
+[3.683s] writing ../../build/pallet_align/pallet_align.egg-info/PKG-INFO
+[3.684s] writing dependency_links to ../../build/pallet_align/pallet_align.egg-info/dependency_links.txt
+[3.685s] writing entry points to ../../build/pallet_align/pallet_align.egg-info/entry_points.txt
+[3.685s] writing requirements to ../../build/pallet_align/pallet_align.egg-info/requires.txt
+[3.686s] writing top-level names to ../../build/pallet_align/pallet_align.egg-info/top_level.txt
+[3.693s] reading manifest file '../../build/pallet_align/pallet_align.egg-info/SOURCES.txt'
+[3.694s] writing manifest file '../../build/pallet_align/pallet_align.egg-info/SOURCES.txt'
+[3.695s] running build
+[3.695s] running build_py
+[3.696s] creating /home/jaeseok/ros2_ws/build/pallet_align/build
+[3.696s] creating /home/jaeseok/ros2_ws/build/pallet_align/build/lib
+[3.696s] creating /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align
+[3.697s] copying pallet_align/aruco_detector_node.py -> /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align
+[3.697s] copying pallet_align/serial_sender_node.py -> /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align
+[3.697s] copying pallet_align/__init__.py -> /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align
+[3.698s] running install
+[3.698s] running install_lib
+[3.700s] creating /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align
+[3.700s] copying /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align/aruco_detector_node.py -> /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align
+[3.700s] copying /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align/serial_sender_node.py -> /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align
+[3.701s] copying /home/jaeseok/ros2_ws/build/pallet_align/build/lib/pallet_align/__init__.py -> /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align
+[3.702s] byte-compiling /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align/aruco_detector_node.py to aruco_detector_node.cpython-310.pyc
+[3.706s] byte-compiling /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align/serial_sender_node.py to serial_sender_node.cpython-310.pyc
+[3.708s] byte-compiling /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align/__init__.py to __init__.cpython-310.pyc
+[3.708s] running install_data
+[3.709s] copying resource/pallet_align -> /home/jaeseok/ros2_ws/install/pallet_align/share/ament_index/resource_index/packages
+[3.709s] copying package.xml -> /home/jaeseok/ros2_ws/install/pallet_align/share/pallet_align
+[3.710s] copying launch/pallet_align.launch.py -> /home/jaeseok/ros2_ws/install/pallet_align/share/pallet_align/launch
+[3.710s] running install_egg_info
+[3.715s] Copying ../../build/pallet_align/pallet_align.egg-info to /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet_align-0.1.0-py3.10.egg-info
+[3.718s] running install_scripts
+[3.782s] Installing aruco_detector_node script to /home/jaeseok/ros2_ws/install/pallet_align/lib/pallet_align
+[3.783s] Installing serial_sender_node script to /home/jaeseok/ros2_ws/install/pallet_align/lib/pallet_align
+[3.783s] writing list of installed files to '/home/jaeseok/ros2_ws/build/pallet_align/install.log'
+[3.904s] Invoked command in '/home/jaeseok/ros2_ws/src/pallet_align' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/build/pallet_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pallet_align build --build-base /home/jaeseok/ros2_ws/build/pallet_align/build install --record /home/jaeseok/ros2_ws/build/pallet_align/install.log --single-version-externally-managed install_data --force

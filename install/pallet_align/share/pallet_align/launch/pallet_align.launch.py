@@ -1,0 +1,1 @@
+/home/jaeseok/ros2_ws/build/pallet_align/launch/pallet_align.launch.py

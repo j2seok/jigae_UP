@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"tools/recorder/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"Release/rs-record"
+			],
+			"targetId" : "rs-record::@390efd627d107a64a8e8",
+			"targetIndex" : 31,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tools/recorder",
+		"source" : "tools/recorder"
+	}
+}

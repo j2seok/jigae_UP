@@ -1,0 +1,24 @@
+[1.741s] Invoking command in '/home/jaeseok/ros2_ws/src/esp_serial': PYTHONPATH=/home/jaeseok/ros2_ws/build/esp_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/esp_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp_serial build --build-base /home/jaeseok/ros2_ws/build/esp_serial/build install --record /home/jaeseok/ros2_ws/build/esp_serial/install.log --single-version-externally-managed install_data
+[2.370s] running egg_info
+[2.373s] writing ../../build/esp_serial/esp_serial.egg-info/PKG-INFO
+[2.375s] writing dependency_links to ../../build/esp_serial/esp_serial.egg-info/dependency_links.txt
+[2.376s] writing entry points to ../../build/esp_serial/esp_serial.egg-info/entry_points.txt
+[2.380s] writing requirements to ../../build/esp_serial/esp_serial.egg-info/requires.txt
+[2.380s] writing top-level names to ../../build/esp_serial/esp_serial.egg-info/top_level.txt
+[2.385s] reading manifest file '../../build/esp_serial/esp_serial.egg-info/SOURCES.txt'
+[2.387s] writing manifest file '../../build/esp_serial/esp_serial.egg-info/SOURCES.txt'
+[2.388s] running build
+[2.388s] running build_py
+[2.388s] copying esp_serial/serial_node.py -> /home/jaeseok/ros2_ws/build/esp_serial/build/lib/esp_serial
+[2.389s] running install
+[2.390s] running install_lib
+[2.392s] copying /home/jaeseok/ros2_ws/build/esp_serial/build/lib/esp_serial/serial_node.py -> /home/jaeseok/ros2_ws/install/esp_serial/lib/python3.10/site-packages/esp_serial
+[2.394s] byte-compiling /home/jaeseok/ros2_ws/install/esp_serial/lib/python3.10/site-packages/esp_serial/serial_node.py to serial_node.cpython-310.pyc
+[2.399s] running install_data
+[2.399s] running install_egg_info
+[2.404s] removing '/home/jaeseok/ros2_ws/install/esp_serial/lib/python3.10/site-packages/esp_serial-0.0.0-py3.10.egg-info' (and everything under it)
+[2.405s] Copying ../../build/esp_serial/esp_serial.egg-info to /home/jaeseok/ros2_ws/install/esp_serial/lib/python3.10/site-packages/esp_serial-0.0.0-py3.10.egg-info
+[2.407s] running install_scripts
+[2.471s] Installing serial_node script to /home/jaeseok/ros2_ws/install/esp_serial/lib/esp_serial
+[2.472s] writing list of installed files to '/home/jaeseok/ros2_ws/build/esp_serial/install.log'
+[2.608s] Invoked command in '/home/jaeseok/ros2_ws/src/esp_serial' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/build/esp_serial/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/esp_serial/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/esp_serial build --build-base /home/jaeseok/ros2_ws/build/esp_serial/build install --record /home/jaeseok/ros2_ws/build/esp_serial/install.log --single-version-externally-managed install_data

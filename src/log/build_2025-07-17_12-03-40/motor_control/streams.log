@@ -1,0 +1,24 @@
+[4.534s] Invoking command in '/home/jaeseok/ros2_ws/src/build/motor_control': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/motor_control/build --no-deps symlink_data
+[5.724s] running develop
+[6.159s] running egg_info
+[6.159s] creating motor_control.egg-info
+[6.159s] writing motor_control.egg-info/PKG-INFO
+[6.160s] writing dependency_links to motor_control.egg-info/dependency_links.txt
+[6.160s] writing entry points to motor_control.egg-info/entry_points.txt
+[6.161s] writing requirements to motor_control.egg-info/requires.txt
+[6.161s] writing top-level names to motor_control.egg-info/top_level.txt
+[6.162s] writing manifest file 'motor_control.egg-info/SOURCES.txt'
+[6.168s] reading manifest file 'motor_control.egg-info/SOURCES.txt'
+[6.170s] writing manifest file 'motor_control.egg-info/SOURCES.txt'
+[6.176s] running build_ext
+[6.176s] Creating /home/jaeseok/ros2_ws/src/install/motor_control/lib/python3.10/site-packages/motor-control.egg-link (link to .)
+[6.179s] Installing serial_key_sender script to /home/jaeseok/ros2_ws/src/install/motor_control/lib/motor_control
+[6.180s] 
+[6.181s] Installed /home/jaeseok/ros2_ws/src/build/motor_control
+[6.181s] running symlink_data
+[6.181s] creating /home/jaeseok/ros2_ws/src/install/motor_control/share/ament_index
+[6.182s] creating /home/jaeseok/ros2_ws/src/install/motor_control/share/ament_index/resource_index
+[6.182s] creating /home/jaeseok/ros2_ws/src/install/motor_control/share/ament_index/resource_index/packages
+[6.182s] symbolically linking /home/jaeseok/ros2_ws/src/build/motor_control/resource/motor_control -> /home/jaeseok/ros2_ws/src/install/motor_control/share/ament_index/resource_index/packages
+[6.182s] symbolically linking /home/jaeseok/ros2_ws/src/build/motor_control/package.xml -> /home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control
+[6.478s] Invoked command in '/home/jaeseok/ros2_ws/src/build/motor_control' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/motor_control/build --no-deps symlink_data

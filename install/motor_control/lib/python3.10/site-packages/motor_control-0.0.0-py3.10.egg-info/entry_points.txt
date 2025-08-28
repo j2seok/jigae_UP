@@ -1,0 +1,3 @@
+[console_scripts]
+serial_key_sender = motor_control.serial_key_sender:main
+

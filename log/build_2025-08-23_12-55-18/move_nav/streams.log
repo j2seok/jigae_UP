@@ -1,0 +1,23 @@
+[1.883s] Invoking command in '/home/jaeseok/ros2_ws/src/move_nav': PYTHONPATH=/home/jaeseok/ros2_ws/build/move_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_nav build --build-base /home/jaeseok/ros2_ws/build/move_nav/build install --record /home/jaeseok/ros2_ws/build/move_nav/install.log --single-version-externally-managed install_data
+[2.569s] running egg_info
+[2.570s] writing ../../build/move_nav/move_nav.egg-info/PKG-INFO
+[2.573s] writing dependency_links to ../../build/move_nav/move_nav.egg-info/dependency_links.txt
+[2.575s] writing entry points to ../../build/move_nav/move_nav.egg-info/entry_points.txt
+[2.577s] writing requirements to ../../build/move_nav/move_nav.egg-info/requires.txt
+[2.578s] writing top-level names to ../../build/move_nav/move_nav.egg-info/top_level.txt
+[2.584s] reading manifest file '../../build/move_nav/move_nav.egg-info/SOURCES.txt'
+[2.586s] writing manifest file '../../build/move_nav/move_nav.egg-info/SOURCES.txt'
+[2.588s] running build
+[2.588s] running build_py
+[2.588s] running install
+[2.590s] running install_lib
+[2.592s] running install_data
+[2.592s] creating /home/jaeseok/ros2_ws/install/move_nav/share/move_nav/launch
+[2.593s] copying launch/nav_with_serial.launch.py -> /home/jaeseok/ros2_ws/install/move_nav/share/move_nav/launch
+[2.593s] running install_egg_info
+[2.599s] removing '/home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav-0.0.0-py3.10.egg-info' (and everything under it)
+[2.600s] Copying ../../build/move_nav/move_nav.egg-info to /home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav-0.0.0-py3.10.egg-info
+[2.602s] running install_scripts
+[2.670s] Installing encoder_imu_ekf script to /home/jaeseok/ros2_ws/install/move_nav/lib/move_nav
+[2.672s] writing list of installed files to '/home/jaeseok/ros2_ws/build/move_nav/install.log'
+[2.805s] Invoked command in '/home/jaeseok/ros2_ws/src/move_nav' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/build/move_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/move_nav build --build-base /home/jaeseok/ros2_ws/build/move_nav/build install --record /home/jaeseok/ros2_ws/build/move_nav/install.log --single-version-externally-managed install_data

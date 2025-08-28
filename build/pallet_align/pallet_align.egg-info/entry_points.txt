@@ -1,0 +1,4 @@
+[console_scripts]
+aruco_detector_node = pallet_align.aruco_detector_node:main
+serial_sender_node = pallet_align.serial_sender_node:main
+

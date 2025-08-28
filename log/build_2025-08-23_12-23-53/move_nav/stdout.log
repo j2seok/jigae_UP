@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/move_nav/move_nav.egg-info
+writing ../../build/move_nav/move_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/move_nav/move_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/move_nav/move_nav.egg-info/entry_points.txt
+writing requirements to ../../build/move_nav/move_nav.egg-info/requires.txt
+writing top-level names to ../../build/move_nav/move_nav.egg-info/top_level.txt
+writing manifest file '../../build/move_nav/move_nav.egg-info/SOURCES.txt'
+reading manifest file '../../build/move_nav/move_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/move_nav/move_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jaeseok/ros2_ws/build/move_nav/build
+creating /home/jaeseok/ros2_ws/build/move_nav/build/lib
+creating /home/jaeseok/ros2_ws/build/move_nav/build/lib/move_nav
+copying move_nav/encoder_imu_ekf.py -> /home/jaeseok/ros2_ws/build/move_nav/build/lib/move_nav
+copying move_nav/__init__.py -> /home/jaeseok/ros2_ws/build/move_nav/build/lib/move_nav
+running install
+running install_lib
+creating /home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav
+copying /home/jaeseok/ros2_ws/build/move_nav/build/lib/move_nav/encoder_imu_ekf.py -> /home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav
+copying /home/jaeseok/ros2_ws/build/move_nav/build/lib/move_nav/__init__.py -> /home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav
+byte-compiling /home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav/encoder_imu_ekf.py to encoder_imu_ekf.cpython-310.pyc
+byte-compiling /home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/jaeseok/ros2_ws/install/move_nav/share/ament_index
+creating /home/jaeseok/ros2_ws/install/move_nav/share/ament_index/resource_index
+creating /home/jaeseok/ros2_ws/install/move_nav/share/ament_index/resource_index/packages
+copying resource/move_nav -> /home/jaeseok/ros2_ws/install/move_nav/share/ament_index/resource_index/packages
+copying package.xml -> /home/jaeseok/ros2_ws/install/move_nav/share/move_nav
+running install_egg_info
+Copying ../../build/move_nav/move_nav.egg-info to /home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing encoder_imu_ekf script to /home/jaeseok/ros2_ws/install/move_nav/lib/move_nav
+writing list of installed files to '/home/jaeseok/ros2_ws/build/move_nav/install.log'

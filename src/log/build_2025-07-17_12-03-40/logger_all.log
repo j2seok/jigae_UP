@@ -1,0 +1,350 @@
+[0.269s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.269s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa1750e50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa17508e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa17508e0>>)
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.675s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.676s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jaeseok/ros2_ws/src'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.676s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.677s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.707s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(encoder_imu_ekf) by extensions ['ignore', 'ignore_ament_install']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(encoder_imu_ekf) by extension 'ignore'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(encoder_imu_ekf) by extension 'ignore_ament_install'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(encoder_imu_ekf) by extensions ['colcon_pkg']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(encoder_imu_ekf) by extension 'colcon_pkg'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(encoder_imu_ekf) by extensions ['colcon_meta']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(encoder_imu_ekf) by extension 'colcon_meta'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(encoder_imu_ekf) by extensions ['ros']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(encoder_imu_ekf) by extension 'ros'
+[0.716s] DEBUG:colcon.colcon_core.package_identification:Package 'encoder_imu_ekf' with type 'ros.ament_python' and name 'encoder_imu_ekf'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.717s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_slam_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_slam_pkg) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_slam_pkg) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_slam_pkg) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_slam_pkg) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_slam_pkg) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_slam_pkg) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_slam_pkg) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(lidar_slam_pkg) by extension 'ros'
+[0.720s] DEBUG:colcon.colcon_core.package_identification:Package 'lidar_slam_pkg' with type 'ros.ament_python' and name 'lidar_slam_pkg'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'ignore'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'ignore_ament_install'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['colcon_pkg']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'colcon_pkg'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['colcon_meta']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'colcon_meta'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extensions ['ros']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(motor_control) by extension 'ros'
+[0.723s] DEBUG:colcon.colcon_core.package_identification:Package 'motor_control' with type 'ros.ament_python' and name 'motor_control'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ignore_ament_install'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_pkg']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_pkg'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['colcon_meta']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'colcon_meta'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extensions ['ros']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(sllidar_ros2) by extension 'ros'
+[0.725s] DEBUG:colcon.colcon_core.package_identification:Package 'sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(static_tf_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(static_tf_broadcaster) by extension 'ignore'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(static_tf_broadcaster) by extension 'ignore_ament_install'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(static_tf_broadcaster) by extensions ['colcon_pkg']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(static_tf_broadcaster) by extension 'colcon_pkg'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(static_tf_broadcaster) by extensions ['colcon_meta']
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(static_tf_broadcaster) by extension 'colcon_meta'
+[0.726s] Level 1:colcon.colcon_core.package_identification:_identify(static_tf_broadcaster) by extensions ['ros']
+[0.727s] Level 1:colcon.colcon_core.package_identification:_identify(static_tf_broadcaster) by extension 'ros'
+[0.728s] DEBUG:colcon.colcon_core.package_identification:Package 'static_tf_broadcaster' with type 'ros.ament_python' and name 'static_tf_broadcaster'
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.728s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.784s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.789s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/jaeseok/ros2_ws/install
+[0.791s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 282 installed packages in /opt/ros/humble
+[0.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.940s] Level 5:colcon.colcon_core.verb:set package 'encoder_imu_ekf' build argument 'cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'encoder_imu_ekf' build argument 'cmake_target' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'encoder_imu_ekf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'encoder_imu_ekf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'encoder_imu_ekf' build argument 'cmake_clean_first' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'encoder_imu_ekf' build argument 'cmake_force_configure' from command line to 'False'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'encoder_imu_ekf' build argument 'ament_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'encoder_imu_ekf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.941s] Level 5:colcon.colcon_core.verb:set package 'encoder_imu_ekf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.941s] DEBUG:colcon.colcon_core.verb:Building package 'encoder_imu_ekf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf', 'merge_install': False, 'path': '/home/jaeseok/ros2_ws/src/encoder_imu_ekf', 'symlink_install': True, 'test_result_base': None}
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_pkg' build argument 'cmake_args' from command line to 'None'
+[0.942s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_pkg' build argument 'cmake_target' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.943s] Level 5:colcon.colcon_core.verb:set package 'lidar_slam_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.943s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_slam_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg', 'merge_install': False, 'path': '/home/jaeseok/ros2_ws/src/lidar_slam_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.944s] Level 5:colcon.colcon_core.verb:set package 'motor_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.944s] DEBUG:colcon.colcon_core.verb:Building package 'motor_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaeseok/ros2_ws/src/build/motor_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaeseok/ros2_ws/src/install/motor_control', 'merge_install': False, 'path': '/home/jaeseok/ros2_ws/src/motor_control', 'symlink_install': True, 'test_result_base': None}
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.945s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.946s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaeseok/ros2_ws/src/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaeseok/ros2_ws/src/install/sllidar_ros2', 'merge_install': False, 'path': '/home/jaeseok/ros2_ws/src/sllidar_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'static_tf_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.946s] Level 5:colcon.colcon_core.verb:set package 'static_tf_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'static_tf_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'static_tf_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'static_tf_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'static_tf_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'static_tf_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'static_tf_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.947s] Level 5:colcon.colcon_core.verb:set package 'static_tf_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.947s] DEBUG:colcon.colcon_core.verb:Building package 'static_tf_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster', 'merge_install': False, 'path': '/home/jaeseok/ros2_ws/src/static_tf_broadcaster', 'symlink_install': True, 'test_result_base': None}
+[0.947s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.951s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.952s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaeseok/ros2_ws/src/encoder_imu_ekf' with build type 'ament_python'
+[0.952s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_imu_ekf', 'ament_prefix_path')
+[0.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/hook/ament_prefix_path.ps1'
+[0.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/hook/ament_prefix_path.dsv'
+[0.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/hook/ament_prefix_path.sh'
+[0.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.967s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.977s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaeseok/ros2_ws/src/lidar_slam_pkg' with build type 'ament_python'
+[0.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_slam_pkg', 'ament_prefix_path')
+[0.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/hook/ament_prefix_path.ps1'
+[0.980s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/hook/ament_prefix_path.dsv'
+[0.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/hook/ament_prefix_path.sh'
+[0.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.998s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaeseok/ros2_ws/src/motor_control' with build type 'ament_python'
+[0.998s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'ament_prefix_path')
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/hook/ament_prefix_path.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/hook/ament_prefix_path.dsv'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/hook/ament_prefix_path.sh'
+[1.003s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.003s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.012s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jaeseok/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[1.013s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jaeseok/ros2_ws/src/sllidar_ros2'
+[1.013s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.024s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/jaeseok/ros2_ws/src/static_tf_broadcaster' with build type 'ament_python'
+[1.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('static_tf_broadcaster', 'ament_prefix_path')
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/hook/ament_prefix_path.ps1'
+[1.030s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/hook/ament_prefix_path.dsv'
+[1.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/hook/ament_prefix_path.sh'
+[1.035s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.035s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.799s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'encoder_imu_ekf' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[1.801s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaeseok/ros2_ws/src/encoder_imu_ekf'
+[1.802s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.802s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.519s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaeseok/ros2_ws/src/lidar_slam_pkg'
+[2.522s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.522s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.242s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaeseok/ros2_ws/src/motor_control'
+[3.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaeseok/ros2_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/static_tf_broadcaster:/home/jaeseok/ros2_ws/install/lidar_slam_pkg:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake /home/jaeseok/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaeseok/ros2_ws/src/install/sllidar_ros2
+[4.005s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'static_tf_broadcaster' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[4.006s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/jaeseok/ros2_ws/src/static_tf_broadcaster'
+[4.007s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.008s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/build --no-deps symlink_data
+[5.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaeseok/ros2_ws/src/build/motor_control': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/motor_control/build --no-deps symlink_data
+[5.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/build --no-deps symlink_data
+[5.641s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/ament_index/resource_index/packages/lidar_slam_pkg
+[5.642s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/package.xml
+[5.642s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/launch/lidar_slam.launch.py
+[5.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/build --no-deps symlink_data --force
+[7.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_imu_ekf', 'pythonpath_develop')
+[7.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/share/encoder_imu_ekf/hook/pythonpath_develop.ps1'
+[7.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/build --no-deps symlink_data
+[7.360s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/share/encoder_imu_ekf/hook/pythonpath_develop.dsv'
+[7.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/share/encoder_imu_ekf/hook/pythonpath_develop.sh'
+[7.433s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf' for CMake module files
+[7.435s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf' for CMake config files
+[7.447s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib'
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/bin'
+[7.448s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/pkgconfig/encoder_imu_ekf.pc'
+[7.449s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/python3.10/site-packages'
+[7.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('encoder_imu_ekf', 'pythonpath')
+[7.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/hook/pythonpath.ps1'
+[7.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/hook/pythonpath.dsv'
+[7.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/hook/pythonpath.sh'
+[7.454s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/bin'
+[7.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(encoder_imu_ekf)
+[7.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/package.ps1'
+[7.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/package.dsv'
+[7.460s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/package.sh'
+[7.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/package.bash'
+[7.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/package.zsh'
+[7.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/colcon-core/packages/encoder_imu_ekf)
+[7.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'pythonpath_develop')
+[7.481s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaeseok/ros2_ws/src/build/motor_control' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/motor_control/build --no-deps symlink_data
+[7.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/build/motor_control/share/motor_control/hook/pythonpath_develop.ps1'
+[7.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/build/motor_control/share/motor_control/hook/pythonpath_develop.dsv'
+[7.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/build/motor_control/share/motor_control/hook/pythonpath_develop.sh'
+[7.502s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/motor_control' for CMake module files
+[7.503s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/motor_control' for CMake config files
+[7.506s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/motor_control/lib'
+[7.507s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/motor_control/bin'
+[7.507s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/motor_control/lib/pkgconfig/motor_control.pc'
+[7.508s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/motor_control/lib/python3.10/site-packages'
+[7.508s] Level 1:colcon.colcon_core.shell:create_environment_hook('motor_control', 'pythonpath')
+[7.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/hook/pythonpath.ps1'
+[7.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/hook/pythonpath.dsv'
+[7.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/hook/pythonpath.sh'
+[7.512s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/motor_control/bin'
+[7.513s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motor_control)
+[7.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/package.ps1'
+[7.519s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/package.dsv'
+[7.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/package.sh'
+[7.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/package.bash'
+[7.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/motor_control/share/motor_control/package.zsh'
+[7.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaeseok/ros2_ws/src/install/motor_control/share/colcon-core/packages/motor_control)
+[7.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('static_tf_broadcaster', 'pythonpath_develop')
+[7.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/build --no-deps symlink_data
+[7.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/share/static_tf_broadcaster/hook/pythonpath_develop.ps1'
+[7.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/share/static_tf_broadcaster/hook/pythonpath_develop.dsv'
+[7.544s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/share/static_tf_broadcaster/hook/pythonpath_develop.sh'
+[7.550s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster' for CMake module files
+[7.552s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster' for CMake config files
+[7.554s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib'
+[7.554s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/bin'
+[7.554s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/pkgconfig/static_tf_broadcaster.pc'
+[7.555s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/python3.10/site-packages'
+[7.555s] Level 1:colcon.colcon_core.shell:create_environment_hook('static_tf_broadcaster', 'pythonpath')
+[7.556s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/hook/pythonpath.ps1'
+[7.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/hook/pythonpath.dsv'
+[7.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/hook/pythonpath.sh'
+[7.596s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/bin'
+[7.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(static_tf_broadcaster)
+[7.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/package.ps1'
+[7.602s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/package.dsv'
+[7.604s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/package.sh'
+[7.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/package.bash'
+[7.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/package.zsh'
+[7.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/colcon-core/packages/static_tf_broadcaster)
+[7.806s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_slam_pkg', 'pythonpath_develop')
+[7.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/share/lidar_slam_pkg/hook/pythonpath_develop.ps1'
+[7.810s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/share/lidar_slam_pkg/hook/pythonpath_develop.dsv'
+[7.812s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/build --no-deps symlink_data --force
+[7.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/share/lidar_slam_pkg/hook/pythonpath_develop.sh'
+[7.815s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg' for CMake module files
+[7.816s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg' for CMake config files
+[7.818s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/lib'
+[7.818s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/bin'
+[7.819s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/lib/pkgconfig/lidar_slam_pkg.pc'
+[7.819s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/lib/python3.10/site-packages'
+[7.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_slam_pkg', 'pythonpath')
+[7.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/hook/pythonpath.ps1'
+[7.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/hook/pythonpath.dsv'
+[7.824s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/hook/pythonpath.sh'
+[7.826s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/bin'
+[7.827s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_slam_pkg)
+[7.828s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/package.ps1'
+[7.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/package.dsv'
+[7.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/package.sh'
+[7.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/package.bash'
+[7.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/package.zsh'
+[7.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/colcon-core/packages/lidar_slam_pkg)
+[9.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaeseok/ros2_ws/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/static_tf_broadcaster:/home/jaeseok/ros2_ws/install/lidar_slam_pkg:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake /home/jaeseok/ros2_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/jaeseok/ros2_ws/src/install/sllidar_ros2
+[9.334s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaeseok/ros2_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/static_tf_broadcaster:/home/jaeseok/ros2_ws/install/lidar_slam_pkg:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --build /home/jaeseok/ros2_ws/src/build/sllidar_ros2 -- -j6 -l6
+[41.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaeseok/ros2_ws/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/static_tf_broadcaster:/home/jaeseok/ros2_ws/install/lidar_slam_pkg:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --build /home/jaeseok/ros2_ws/src/build/sllidar_ros2 -- -j6 -l6
+[41.270s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jaeseok/ros2_ws/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/static_tf_broadcaster:/home/jaeseok/ros2_ws/install/lidar_slam_pkg:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --install /home/jaeseok/ros2_ws/src/build/sllidar_ros2
+[42.367s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[42.368s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2' for CMake module files
+[42.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jaeseok/ros2_ws/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/static_tf_broadcaster:/home/jaeseok/ros2_ws/install/lidar_slam_pkg:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --install /home/jaeseok/ros2_ws/src/build/sllidar_ros2
+[42.371s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2' for CMake config files
+[42.372s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[42.373s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[42.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[42.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[42.379s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/lib'
+[42.379s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/bin'
+[42.379s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[42.380s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/lib/python3.10/site-packages'
+[42.381s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/bin'
+[42.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[42.383s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[42.386s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[42.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[42.388s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[42.389s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[42.391s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[42.392s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2' for CMake module files
+[42.393s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2' for CMake config files
+[42.394s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[42.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[42.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[42.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[42.399s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/lib'
+[42.399s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/bin'
+[42.399s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[42.400s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/lib/python3.10/site-packages'
+[42.401s] Level 1:colcon.colcon_core.environment:checking '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/bin'
+[42.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[42.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[42.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[42.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[42.408s] INFO:colcon.colcon_core.shell:Creating package script '/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[42.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jaeseok/ros2_ws/src/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[42.411s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[42.412s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[42.414s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[42.415s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[42.499s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[42.499s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[42.499s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[42.520s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[42.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaeseok/ros2_ws/src/install/local_setup.ps1'
+[42.526s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaeseok/ros2_ws/src/install/_local_setup_util_ps1.py'
+[42.537s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaeseok/ros2_ws/src/install/setup.ps1'
+[42.542s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaeseok/ros2_ws/src/install/local_setup.sh'
+[42.544s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jaeseok/ros2_ws/src/install/_local_setup_util_sh.py'
+[42.546s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaeseok/ros2_ws/src/install/setup.sh'
+[42.550s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaeseok/ros2_ws/src/install/local_setup.bash'
+[42.551s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaeseok/ros2_ws/src/install/setup.bash'
+[42.556s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jaeseok/ros2_ws/src/install/local_setup.zsh'
+[42.557s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jaeseok/ros2_ws/src/install/setup.zsh'

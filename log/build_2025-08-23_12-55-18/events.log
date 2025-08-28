@@ -1,0 +1,68 @@
+[0.000000] (-) TimerEvent: {}
+[0.001356] (-) JobUnselected: {'identifier': 'encoder_imu_ekf'}
+[0.002795] (-) JobUnselected: {'identifier': 'esp_serial'}
+[0.003448] (-) JobUnselected: {'identifier': 'librealsense2'}
+[0.004703] (-) JobUnselected: {'identifier': 'motor_control'}
+[0.004882] (-) JobUnselected: {'identifier': 'my_robot_description'}
+[0.005198] (-) JobUnselected: {'identifier': 'pallet_align'}
+[0.005319] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.005383] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.005470] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.005529] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.005578] (-) JobUnselected: {'identifier': 'static_tf_broadcaster'}
+[0.005646] (-) JobUnselected: {'identifier': 'tgt_nav'}
+[0.007752] (move_nav) JobQueued: {'identifier': 'move_nav', 'dependencies': OrderedDict()}
+[0.007923] (move_nav) JobStarted: {'identifier': 'move_nav'}
+[0.096690] (-) TimerEvent: {}
+[0.198966] (-) TimerEvent: {}
+[0.300013] (-) TimerEvent: {}
+[0.401124] (-) TimerEvent: {}
+[0.503789] (-) TimerEvent: {}
+[0.605419] (-) TimerEvent: {}
+[0.706667] (-) TimerEvent: {}
+[0.807735] (-) TimerEvent: {}
+[0.909615] (-) TimerEvent: {}
+[1.011811] (-) TimerEvent: {}
+[1.112876] (-) TimerEvent: {}
+[1.214201] (-) TimerEvent: {}
+[1.315540] (-) TimerEvent: {}
+[1.417537] (-) TimerEvent: {}
+[1.519619] (-) TimerEvent: {}
+[1.620764] (-) TimerEvent: {}
+[1.724347] (-) TimerEvent: {}
+[1.828130] (-) TimerEvent: {}
+[1.887154] (move_nav) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/move_nav', 'build', '--build-base', '/home/jaeseok/ros2_ws/build/move_nav/build', 'install', '--record', '/home/jaeseok/ros2_ws/build/move_nav/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jaeseok/ros2_ws/src/move_nav', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'jaeseok', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/jaeseok/ros2_ws/install/realsense2_camera/lib:/home/jaeseok/ros2_ws/install/realsense2_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/jaeseok', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.103.1', 'DESKTOP_SESSION': 'LXDE', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/jaeseok/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/libs/debugpy', 'XRDP_PULSE_SOURCE_SOCKET': 'xrdp_chansrv_audio_in_socket_10', 'XRDP_PULSE_SINK_SOCKET': 'xrdp_chansrv_audio_out_socket_10', 'DBUS_SESSION_BUS_ADDRESS': 'unix:abstract=/tmp/dbus-VjZcOIlKls,guid=7e24b5660867c335fb3c2e6c68a92db6', 'COLORTERM': 'truecolor', 'PULSE_SCRIPT': '/etc/xrdp/pulse/default.pa', 'COLCON_PREFIX_PATH': '/home/jaeseok/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'jaeseok', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/jaeseok/ros2_ws/install/librealsense2/lib/aarch64-linux-gnu/pkgconfig:/home/jaeseok/ros2_ws/install/librealsense2/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': 'c7', 'ROS_LOCALHOST_ONLY': '0', 'SAL_USE_VCLPLUGIN': 'gtk', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jaeseok/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_MENU_PREFIX': 'lxde-', 'XRDP_SOCKET_PATH': '/run/xrdp/sockdir', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/40c64d7f_d882_486f_b418_2bbd539908f0', 'GDK_BACKEND': 'x11', 'DISPLAY': ':10.0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/jaeseok/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-4d66375b82c7ac71.txt', 'LANG': 'ko_KR.UTF-8', 'XDG_CURRENT_DESKTOP': 'LXDE', 'XDG_DATA_HOME': '/home/jaeseok/.local/share', 'XDG_CONFIG_HOME': '/home/jaeseok/.config', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-36b6e14761.sock', 'GNOME_TERMINAL_SERVICE': ':1.39', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/jaeseok/ros2_ws/install/move_nav:/home/jaeseok/ros2_ws/install/sllidar_ros2:/home/jaeseok/ros2_ws/install/realsense2_description:/home/jaeseok/ros2_ws/install/realsense2_camera:/home/jaeseok/ros2_ws/install/realsense2_camera_msgs:/home/jaeseok/ros2_ws/install/pallet_align:/home/jaeseok/ros2_ws/install/my_robot_description:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'LXDE', 'UID': '1000', 'SHELL': '/bin/bash', 'NO_AT_BRIDGE': '1', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'XRDP_SESSION': '1', '_LXSESSION_PID': '4369', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/jaeseok/ros2_ws/build/move_nav', 'XDG_CONFIG_DIRS': '/etc/xdg', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/usr/share/gdm:/var/lib/menu-xdg:/usr/local/share/:/usr/share/:/usr/share/gdm/:/var/lib/menu-xdg/', 'PYTHONPATH': '/home/jaeseok/ros2_ws/build/move_nav/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages:/home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages:/home/jaeseok/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/jaeseok/ros2_ws/build/pallet_align:/home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages:/home/jaeseok/ros2_ws/install/motor_control/lib/python3.10/site-packages:/home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/jaeseok/ros2_ws/install/sllidar_ros2:/home/jaeseok/ros2_ws/install/realsense2_description:/home/jaeseok/ros2_ws/install/realsense2_camera:/home/jaeseok/ros2_ws/install/realsense2_camera_msgs:/home/jaeseok/ros2_ws/install/my_robot_description'}, 'shell': False}
+[1.928344] (-) TimerEvent: {}
+[2.032251] (-) TimerEvent: {}
+[2.133366] (-) TimerEvent: {}
+[2.234631] (-) TimerEvent: {}
+[2.335711] (-) TimerEvent: {}
+[2.436759] (-) TimerEvent: {}
+[2.537778] (-) TimerEvent: {}
+[2.575933] (move_nav) StdoutLine: {'line': b'running egg_info\n'}
+[2.578251] (move_nav) StdoutLine: {'line': b'writing ../../build/move_nav/move_nav.egg-info/PKG-INFO\n'}
+[2.580489] (move_nav) StdoutLine: {'line': b'writing dependency_links to ../../build/move_nav/move_nav.egg-info/dependency_links.txt\n'}
+[2.582453] (move_nav) StdoutLine: {'line': b'writing entry points to ../../build/move_nav/move_nav.egg-info/entry_points.txt\n'}
+[2.584289] (move_nav) StdoutLine: {'line': b'writing requirements to ../../build/move_nav/move_nav.egg-info/requires.txt\n'}
+[2.585938] (move_nav) StdoutLine: {'line': b'writing top-level names to ../../build/move_nav/move_nav.egg-info/top_level.txt\n'}
+[2.592218] (move_nav) StdoutLine: {'line': b"reading manifest file '../../build/move_nav/move_nav.egg-info/SOURCES.txt'\n"}
+[2.594171] (move_nav) StdoutLine: {'line': b"writing manifest file '../../build/move_nav/move_nav.egg-info/SOURCES.txt'\n"}
+[2.595606] (move_nav) StdoutLine: {'line': b'running build\n'}
+[2.595839] (move_nav) StdoutLine: {'line': b'running build_py\n'}
+[2.596026] (move_nav) StdoutLine: {'line': b'running install\n'}
+[2.598212] (move_nav) StdoutLine: {'line': b'running install_lib\n'}
+[2.599356] (move_nav) StdoutLine: {'line': b'running install_data\n'}
+[2.600030] (move_nav) StdoutLine: {'line': b'creating /home/jaeseok/ros2_ws/install/move_nav/share/move_nav/launch\n'}
+[2.600702] (move_nav) StdoutLine: {'line': b'copying launch/nav_with_serial.launch.py -> /home/jaeseok/ros2_ws/install/move_nav/share/move_nav/launch\n'}
+[2.600933] (move_nav) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.606692] (move_nav) StdoutLine: {'line': b"removing '/home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.607994] (move_nav) StdoutLine: {'line': b'Copying ../../build/move_nav/move_nav.egg-info to /home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav-0.0.0-py3.10.egg-info\n'}
+[2.609825] (move_nav) StdoutLine: {'line': b'running install_scripts\n'}
+[2.638039] (-) TimerEvent: {}
+[2.677033] (move_nav) StdoutLine: {'line': b'Installing encoder_imu_ekf script to /home/jaeseok/ros2_ws/install/move_nav/lib/move_nav\n'}
+[2.679281] (move_nav) StdoutLine: {'line': b"writing list of installed files to '/home/jaeseok/ros2_ws/build/move_nav/install.log'\n"}
+[2.738282] (-) TimerEvent: {}
+[2.809447] (move_nav) CommandEnded: {'returncode': 0}
+[2.838404] (-) TimerEvent: {}
+[2.847711] (move_nav) JobEnded: {'identifier': 'move_nav', 'rc': 0}
+[2.851951] (-) EventReactorShutdown: {}

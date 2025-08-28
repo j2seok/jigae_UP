@@ -1,0 +1,45 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"examples/motion/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"Release/rs-motion"
+			],
+			"targetId" : "rs-motion::@719a480b5ee438dd903b",
+			"targetIndex" : 26,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples/motion",
+		"source" : "examples/motion"
+	}
+}

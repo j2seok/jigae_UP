@@ -1,0 +1,1280 @@
+Determining if the function connect exists in the socket failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_713ea/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_713ea.dir/build.make CMakeFiles/cmTC_713ea.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_713ea.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_713ea.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_713ea
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_713ea.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_713ea.dir/CheckFunctionExists.c.o -o cmTC_713ea  -lsocket 
+/usr/bin/ld: cannot find -lsocket: 그런 파일이나 디렉터리가 없습니다
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_713ea.dir/build.make:99: cmTC_713ea] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_713ea/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+
+Determining if the OPENSSL_IS_BORINGSSL exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c01f/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_5c01f.dir/build.make CMakeFiles/cmTC_5c01f.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_5c01f.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_5c01f.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: openssl/base.h: 그런 파일이나 디렉터리가 없습니다
+    2 | #include <openssl/base.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_5c01f.dir/build.make:78: CMakeFiles/cmTC_5c01f.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_5c01f/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/base.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OPENSSL_IS_BORINGSSL
+  return ((int*)(&OPENSSL_IS_BORINGSSL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the OPENSSL_IS_AWSLC exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cec22/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_cec22.dir/build.make CMakeFiles/cmTC_cec22.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_cec22.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_cec22.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: openssl/base.h: 그런 파일이나 디렉터리가 없습니다
+    2 | #include <openssl/base.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_cec22.dir/build.make:78: CMakeFiles/cmTC_cec22.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_cec22/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/base.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OPENSSL_IS_AWSLC
+  return ((int*)(&OPENSSL_IS_AWSLC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function idn2_lookup_ul exists in the idn2 failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2ba0/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_b2ba0.dir/build.make CMakeFiles/cmTC_b2ba0.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_b2ba0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=idn2_lookup_ul -o CMakeFiles/cmTC_b2ba0.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b2ba0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2ba0.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=idn2_lookup_ul CMakeFiles/cmTC_b2ba0.dir/CheckFunctionExists.c.o -o cmTC_b2ba0  -lidn2 
+/usr/bin/ld: cannot find -lidn2: 그런 파일이나 디렉터리가 없습니다
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_b2ba0.dir/build.make:99: cmTC_b2ba0] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_b2ba0/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+
+Determining if files ;sys/filio.h exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6fc93/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_6fc93.dir/build.make CMakeFiles/cmTC_6fc93.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_6fc93.dir/HAVE_SYS_FILIO_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_6fc93.dir/HAVE_SYS_FILIO_H.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c:2:10: fatal error: sys/filio.h: 그런 파일이나 디렉터리가 없습니다
+    2 | #include <sys/filio.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_6fc93.dir/build.make:78: CMakeFiles/cmTC_6fc93.dir/HAVE_SYS_FILIO_H.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_6fc93/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Source:
+/* */
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/wait.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/sockio.h exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_823ff/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_823ff.dir/build.make CMakeFiles/cmTC_823ff.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_823ff.dir/HAVE_SYS_SOCKIO_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_823ff.dir/HAVE_SYS_SOCKIO_H.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKIO_H.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKIO_H.c:9:10: fatal error: sys/sockio.h: 그런 파일이나 디렉터리가 없습니다
+    9 | #include <sys/sockio.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_823ff.dir/build.make:78: CMakeFiles/cmTC_823ff.dir/HAVE_SYS_SOCKIO_H.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_823ff/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Source:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/sockio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/wait.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/un.h;sys/utime.h exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_911e0/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_911e0.dir/build.make CMakeFiles/cmTC_911e0.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_911e0.dir/HAVE_SYS_UTIME_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_911e0.dir/HAVE_SYS_UTIME_H.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c:13:10: fatal error: sys/utime.h: 그런 파일이나 디렉터리가 없습니다
+   13 | #include <sys/utime.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_911e0.dir/build.make:78: CMakeFiles/cmTC_911e0.dir/HAVE_SYS_UTIME_H.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_911e0/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Source:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/utime.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/wait.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/un.h;sys/xattr.h;arpa/inet.h;dirent.h;fcntl.h;ifaddrs.h;io.h exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_12017/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_12017.dir/build.make CMakeFiles/cmTC_12017.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_12017.dir/HAVE_IO_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_12017.dir/HAVE_IO_H.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c:18:10: fatal error: io.h: 그런 파일이나 디렉터리가 없습니다
+   18 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_12017.dir/build.make:78: CMakeFiles/cmTC_12017.dir/HAVE_IO_H.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_12017/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Source:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/wait.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/un.h;sys/xattr.h;arpa/inet.h;dirent.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;netinet/udp.h;poll.h;pwd.h;stdatomic.h;stdbool.h;strings.h;stropts.h exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a15ac/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_a15ac.dir/build.make CMakeFiles/cmTC_a15ac.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_a15ac.dir/HAVE_STROPTS_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_a15ac.dir/HAVE_STROPTS_H.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c:30:10: fatal error: stropts.h: 그런 파일이나 디렉터리가 없습니다
+   30 | #include <stropts.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_a15ac.dir/build.make:78: CMakeFiles/cmTC_a15ac.dir/HAVE_STROPTS_H.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_a15ac/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Source:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_66139/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_66139.dir/build.make CMakeFiles/cmTC_66139.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_66139.dir/SIZEOF___INT64.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_66139.dir/SIZEOF___INT64.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:27:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+   27 | #define SIZE (sizeof(__int64))
+      |                      ^~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[4]: *** [CMakeFiles/cmTC_66139.dir/build.make:78: CMakeFiles/cmTC_66139.dir/SIZEOF___INT64.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_66139/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the stricmp exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d148d/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_d148d.dir/build.make CMakeFiles/cmTC_d148d.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_d148d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_d148d.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘stricmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   40 |   return ((int*)(&stricmp))[argc];
+      |                   ^~~~~~~
+      |                   strncmp
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_d148d.dir/build.make:78: CMakeFiles/cmTC_d148d.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_d148d/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcmpi exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4bae8/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_4bae8.dir/build.make CMakeFiles/cmTC_4bae8.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_4bae8.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_4bae8.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘strcmpi’ undeclared (first use in this function); did you mean ‘strcmp’?
+   40 |   return ((int*)(&strcmpi))[argc];
+      |                   ^~~~~~~
+      |                   strcmp
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_4bae8.dir/build.make:78: CMakeFiles/cmTC_4bae8.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_4bae8/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memrchr exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_86176/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_86176.dir/build.make CMakeFiles/cmTC_86176.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_86176.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_86176.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘memrchr’ undeclared (first use in this function); did you mean ‘memchr’?
+   40 |   return ((int*)(&memrchr))[argc];
+      |                   ^~~~~~~
+      |                   memchr
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_86176.dir/build.make:78: CMakeFiles/cmTC_86176.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_86176/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memrchr
+  return ((int*)(&memrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the arc4random exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_15eed/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_15eed.dir/build.make CMakeFiles/cmTC_15eed.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_15eed.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_15eed.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘arc4random’ undeclared (first use in this function); did you mean ‘srandom’?
+   40 |   return ((int*)(&arc4random))[argc];
+      |                   ^~~~~~~~~~
+      |                   srandom
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_15eed.dir/build.make:78: CMakeFiles/cmTC_15eed.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_15eed/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the closesocket exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2c49/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_e2c49.dir/build.make CMakeFiles/cmTC_e2c49.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_e2c49.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_e2c49.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: error: ‘closesocket’ undeclared (first use in this function)
+   39 |   return ((int*)(&closesocket))[argc];
+      |                   ^~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:35:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   35 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_e2c49.dir/build.make:78: CMakeFiles/cmTC_e2c49.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_e2c49/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpass_r exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11cc3/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_11cc3.dir/build.make CMakeFiles/cmTC_11cc3.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_11cc3.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_11cc3.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: error: ‘getpass_r’ undeclared (first use in this function); did you mean ‘getpass’?
+   39 |   return ((int*)(&getpass_r))[argc];
+      |                   ^~~~~~~~~
+      |                   getpass
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:35:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   35 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_11cc3.dir/build.make:78: CMakeFiles/cmTC_11cc3.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_11cc3/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpass_r
+  return ((int*)(&getpass_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _fseeki64 exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0bd1/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_a0bd1.dir/build.make CMakeFiles/cmTC_a0bd1.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_a0bd1.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_a0bd1.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘_fseeki64’ undeclared (first use in this function)
+   40 |   return ((int*)(&_fseeki64))[argc];
+      |                   ^~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_a0bd1.dir/build.make:78: CMakeFiles/cmTC_a0bd1.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_a0bd1/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _fseeki64
+  return ((int*)(&_fseeki64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dc5f4/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_dc5f4.dir/build.make CMakeFiles/cmTC_dc5f4.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_dc5f4.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_dc5f4.dir/CheckSymbolExists.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: error: ‘setmode’ undeclared (first use in this function)
+   39 |   return ((int*)(&setmode))[argc];
+      |                   ^~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:35:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   35 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_dc5f4.dir/build.make:78: CMakeFiles/cmTC_dc5f4.dir/CheckSymbolExists.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_dc5f4/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+File /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cf119/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_cf119.dir/build.make CMakeFiles/cmTC_cf119.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_cf119.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=mach_absolute_time -o CMakeFiles/cmTC_cf119.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_cf119
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf119.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=mach_absolute_time CMakeFiles/cmTC_cf119.dir/CheckFunctionExists.c.o -o cmTC_cf119 
+/usr/bin/ld: CMakeFiles/cmTC_cf119.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `mach_absolute_time'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_cf119.dir/build.make:99: cmTC_cf119] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_cf119/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+
+Performing Test HAVE_FSETXATTR_6 failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_33372/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_33372.dir/build.make CMakeFiles/cmTC_33372.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_33372.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_FSETXATTR_6  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_33372.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:356:3: error: too many arguments to function ‘fsetxattr’
+  356 |   fsetxattr(0, 0, 0, 0, 0, 0);
+      |   ^~~~~~~~~
+In file included from /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:353:
+/usr/include/aarch64-linux-gnu/sys/xattr.h:54:12: note: declared here
+   54 | extern int fsetxattr (int __fd, const char *__name, const void *__value,
+      |            ^~~~~~~~~
+gmake[4]: *** [CMakeFiles/cmTC_33372.dir/build.make:78: CMakeFiles/cmTC_33372.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_33372/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a1c69/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_a1c69.dir/build.make CMakeFiles/cmTC_a1c69.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_a1c69.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_a1c69.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:177:25: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  177 |   unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                         ^~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:177:25: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:177:45: error: ‘FIONBIO’ undeclared (first use in this function)
+  177 |   unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                                             ^~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:177:45: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_a1c69.dir/build.make:78: CMakeFiles/cmTC_a1c69.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_a1c69/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_809cf/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_809cf.dir/build.make CMakeFiles/cmTC_809cf.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_809cf.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_809cf.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:195:11: warning: implicit declaration of function ‘IoctlSocket’ [-Wimplicit-function-declaration]
+  195 |   if(0 != IoctlSocket(0, 0, 0))
+      |           ^~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:195:11: warning: nested extern declaration of ‘IoctlSocket’ [-Wnested-externs]
+Linking C executable cmTC_809cf
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_809cf.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H CMakeFiles/cmTC_809cf.dir/CurlTests.c.o -o cmTC_809cf 
+/usr/bin/ld: CMakeFiles/cmTC_809cf.dir/CurlTests.c.o: in function `main':
+CurlTests.c:(.text+0x14): undefined reference to `IoctlSocket'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_809cf.dir/build.make:99: cmTC_809cf] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_809cf/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4a7a8/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_4a7a8.dir/build.make CMakeFiles/cmTC_4a7a8.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_4a7a8.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_4a7a8.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:214:11: warning: implicit declaration of function ‘IoctlSocket’ [-Wimplicit-function-declaration]
+  214 |   if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |           ^~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:214:11: warning: nested extern declaration of ‘IoctlSocket’ [-Wnested-externs]
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:214:26: error: ‘FIONBIO’ undeclared (first use in this function)
+  214 |   if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                          ^~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:214:26: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_4a7a8.dir/build.make:78: CMakeFiles/cmTC_4a7a8.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_4a7a8/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7cca0/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_7cca0.dir/build.make CMakeFiles/cmTC_7cca0.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_7cca0.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_7cca0.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:232:11: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  232 |   if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |           ^~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:232:11: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:232:26: error: ‘FIONBIO’ undeclared (first use in this function)
+  232 |   if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                          ^~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:232:26: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_7cca0.dir/build.make:78: CMakeFiles/cmTC_7cca0.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_7cca0/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_11635/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_11635.dir/build.make CMakeFiles/cmTC_11635.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_11635.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_11635.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:314:37: error: ‘SO_NONBLOCK’ undeclared (first use in this function); did you mean ‘SOCK_NONBLOCK’?
+  314 |   if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                     ^~~~~~~~~~~
+      |                                     SOCK_NONBLOCK
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:314:37: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_11635.dir/build.make:78: CMakeFiles/cmTC_11635.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_11635/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_809b9/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_809b9.dir/build.make CMakeFiles/cmTC_809b9.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_809b9.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_O_NONBLOCK  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_809b9.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:431: warning: ISO C forbids an empty translation unit [-Wpedantic]
+Linking C executable cmTC_809b9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_809b9.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_O_NONBLOCK  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H CMakeFiles/cmTC_809b9.dir/CurlTests.c.o -o cmTC_809b9 
+/usr/bin/ld: /usr/lib/gcc/aarch64-linux-gnu/11/../../../aarch64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1c): undefined reference to `main'
+/usr/bin/ld: (.text+0x20): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_809b9.dir/build.make:99: cmTC_809b9] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_809b9/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0aac/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_a0aac.dir/build.make CMakeFiles/cmTC_a0aac.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_a0aac.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_a0aac.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:80:23: error: storage size of ‘hdata’ isn’t known
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:92:8: error: too few arguments to function ‘gethostbyname_r’
+   92 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:80:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[4]: *** [CMakeFiles/cmTC_a0aac.dir/build.make:78: CMakeFiles/cmTC_a0aac.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_a0aac/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ae05/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_4ae05.dir/build.make CMakeFiles/cmTC_4ae05.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_4ae05.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_4ae05.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:95:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:180:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:95:8: error: too few arguments to function ‘gethostbyname_r’
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+gmake[4]: *** [CMakeFiles/cmTC_4ae05.dir/build.make:78: CMakeFiles/cmTC_4ae05.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_4ae05/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_04d6a/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_04d6a.dir/build.make CMakeFiles/cmTC_04d6a.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_04d6a.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_04d6a.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:61: warning: "_REENTRANT" redefined
+   61 | #   define _REENTRANT
+      | 
+<command-line>: note: this is the location of the previous definition
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:80:23: error: storage size of ‘hdata’ isn’t known
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:92:8: error: too few arguments to function ‘gethostbyname_r’
+   92 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:80:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[4]: *** [CMakeFiles/cmTC_04d6a.dir/build.make:78: CMakeFiles/cmTC_04d6a.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_04d6a/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8fe21/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_8fe21.dir/build.make CMakeFiles/cmTC_8fe21.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_8fe21.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_8fe21.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:61: warning: "_REENTRANT" redefined
+   61 | #   define _REENTRANT
+      | 
+<command-line>: note: this is the location of the previous definition
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:95:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:180:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:95:8: error: too few arguments to function ‘gethostbyname_r’
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+gmake[4]: *** [CMakeFiles/cmTC_8fe21.dir/build.make:78: CMakeFiles/cmTC_8fe21.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_8fe21/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1a70/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_b1a70.dir/build.make CMakeFiles/cmTC_b1a70.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_b1a70.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GLIBC_STRERROR_R  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_b1a70.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:325:6: warning: no previous prototype for ‘check’ [-Wmissing-prototypes]
+  325 | void check(char c) {}
+      |      ^~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘check’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:325:17: warning: unused parameter ‘c’ [-Wunused-parameter]
+  325 | void check(char c) {}
+      |            ~~~~~^
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:331:51: error: subscripted value is neither array nor pointer nor vector
+  331 |   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+      |                                                   ^
+gmake[4]: *** [CMakeFiles/cmTC_b1a70.dir/build.make:78: CMakeFiles/cmTC_b1a70.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_b1a70/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+
+Performing Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: /home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d978d/fast && gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+/usr/bin/gmake  -f CMakeFiles/cmTC_d978d.dir/build.make CMakeFiles/cmTC_d978d.dir/build
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 들어감
+Building C object CMakeFiles/cmTC_d978d.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_BUILTIN_AVAILABLE  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_d978d.dir/CurlTests.c.o -c /home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:383:6: warning: implicit declaration of function ‘__builtin_available’; did you mean ‘__builtin_scalbl’? [-Wimplicit-function-declaration]
+  383 |   if(__builtin_available(macOS 10.12, *)) {}
+      |      ^~~~~~~~~~~~~~~~~~~
+      |      __builtin_scalbl
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:383:6: warning: nested extern declaration of ‘__builtin_available’ [-Wnested-externs]
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:383:26: error: ‘macOS’ undeclared (first use in this function)
+  383 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                          ^~~~~
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:383:26: note: each undeclared identifier is reported only once for each function it appears in
+/home/jaeseok/ros2_ws/build/librealsense2/third-party/libcurl/CMake/CurlTests.c:383:31: error: expected ‘)’ before numeric constant
+  383 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                         ~     ^~~~~~
+      |                               )
+gmake[4]: *** [CMakeFiles/cmTC_d978d.dir/build.make:78: CMakeFiles/cmTC_d978d.dir/CurlTests.c.o] 오류 1
+gmake[4]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+gmake[3]: *** [Makefile:127: cmTC_d978d/fast] 오류 2
+gmake[3]: 디렉터리 '/home/jaeseok/ros2_ws/build/librealsense2/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp' 나감
+
+

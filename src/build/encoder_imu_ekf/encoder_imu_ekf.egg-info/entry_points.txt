@@ -1,0 +1,3 @@
+[console_scripts]
+serial_imu_encoder_node = encoder_imu_ekf.serial_imu_encoder_node:main
+

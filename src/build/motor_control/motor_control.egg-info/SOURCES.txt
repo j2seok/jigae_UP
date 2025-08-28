@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+motor_control/__init__.py
+motor_control/serial_key_sender.py
+motor_control.egg-info/PKG-INFO
+motor_control.egg-info/SOURCES.txt
+motor_control.egg-info/dependency_links.txt
+motor_control.egg-info/entry_points.txt
+motor_control.egg-info/requires.txt
+motor_control.egg-info/top_level.txt
+motor_control.egg-info/zip-safe
+resource/motor_control

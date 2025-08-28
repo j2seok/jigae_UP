@@ -1,0 +1,18 @@
+[2.073s] Invoking command in '/home/jaeseok/ros2_ws/build/pallet_align': PYTHONPATH=/home/jaeseok/ros2_ws/build/pallet_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/build/pallet_align/build --no-deps symlink_data
+[2.902s] running develop
+[3.371s] running egg_info
+[3.372s] writing pallet_align.egg-info/PKG-INFO
+[3.372s] writing dependency_links to pallet_align.egg-info/dependency_links.txt
+[3.372s] writing entry points to pallet_align.egg-info/entry_points.txt
+[3.372s] writing requirements to pallet_align.egg-info/requires.txt
+[3.373s] writing top-level names to pallet_align.egg-info/top_level.txt
+[3.378s] reading manifest file 'pallet_align.egg-info/SOURCES.txt'
+[3.381s] writing manifest file 'pallet_align.egg-info/SOURCES.txt'
+[3.385s] running build_ext
+[3.386s] Creating /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet-align.egg-link (link to .)
+[3.389s] Installing aruco_detector_node script to /home/jaeseok/ros2_ws/install/pallet_align/lib/pallet_align
+[3.392s] Installing serial_sender_node script to /home/jaeseok/ros2_ws/install/pallet_align/lib/pallet_align
+[3.392s] 
+[3.392s] Installed /home/jaeseok/ros2_ws/build/pallet_align
+[3.392s] running symlink_data
+[3.548s] Invoked command in '/home/jaeseok/ros2_ws/build/pallet_align' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/build/pallet_align/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/build/pallet_align/build --no-deps symlink_data

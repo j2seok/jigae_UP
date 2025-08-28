@@ -1,0 +1,55 @@
+[0.042s] Invoking command in '/home/jaeseok/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/pallet_align:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --build /home/jaeseok/ros2_ws/build/sllidar_ros2 -- -j6 -l6
+[0.327s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[0.353s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[0.458s] [ 95%] Built target sllidar_node
+[0.461s] [100%] Built target sllidar_client
+[0.510s] Invoked command in '/home/jaeseok/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/pallet_align:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --build /home/jaeseok/ros2_ws/build/sllidar_ros2 -- -j6 -l6
+[0.551s] Invoking command in '/home/jaeseok/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/pallet_align:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --install /home/jaeseok/ros2_ws/build/sllidar_ros2
+[0.577s] -- Install configuration: ""
+[0.578s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[0.578s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[0.578s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[0.579s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[0.579s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[0.579s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[0.579s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[0.580s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[0.580s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[0.580s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[0.581s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[0.581s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[0.581s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[0.581s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[0.581s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[0.582s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[0.582s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[0.582s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[0.583s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[0.583s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[0.583s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[0.583s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[0.583s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[0.583s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[0.584s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[0.584s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[0.584s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[0.584s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[0.587s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[0.587s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[0.587s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[0.588s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[0.588s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[0.588s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[0.588s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[0.588s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[0.589s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[0.590s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[0.590s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[0.590s] -- Installing: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[0.593s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[0.593s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.594s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.594s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[0.594s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[0.594s] -- Up-to-date: /home/jaeseok/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[0.602s] Invoked command in '/home/jaeseok/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/pallet_align:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --install /home/jaeseok/ros2_ws/build/sllidar_ros2

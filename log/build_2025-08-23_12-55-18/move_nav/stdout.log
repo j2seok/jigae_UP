@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/move_nav/move_nav.egg-info/PKG-INFO
+writing dependency_links to ../../build/move_nav/move_nav.egg-info/dependency_links.txt
+writing entry points to ../../build/move_nav/move_nav.egg-info/entry_points.txt
+writing requirements to ../../build/move_nav/move_nav.egg-info/requires.txt
+writing top-level names to ../../build/move_nav/move_nav.egg-info/top_level.txt
+reading manifest file '../../build/move_nav/move_nav.egg-info/SOURCES.txt'
+writing manifest file '../../build/move_nav/move_nav.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+creating /home/jaeseok/ros2_ws/install/move_nav/share/move_nav/launch
+copying launch/nav_with_serial.launch.py -> /home/jaeseok/ros2_ws/install/move_nav/share/move_nav/launch
+running install_egg_info
+removing '/home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/move_nav/move_nav.egg-info to /home/jaeseok/ros2_ws/install/move_nav/lib/python3.10/site-packages/move_nav-0.0.0-py3.10.egg-info
+running install_scripts
+Installing encoder_imu_ekf script to /home/jaeseok/ros2_ws/install/move_nav/lib/move_nav
+writing list of installed files to '/home/jaeseok/ros2_ws/build/move_nav/install.log'

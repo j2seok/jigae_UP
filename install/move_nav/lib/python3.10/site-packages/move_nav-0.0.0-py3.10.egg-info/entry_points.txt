@@ -1,0 +1,3 @@
+[console_scripts]
+encoder_imu_ekf = move_nav.encoder_imu_ekf:main
+

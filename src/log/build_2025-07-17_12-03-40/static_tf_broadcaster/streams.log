@@ -1,0 +1,22 @@
+[4.575s] Invoking command in '/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/build --no-deps symlink_data
+[5.637s] running develop
+[6.196s] running egg_info
+[6.197s] creating static_tf_broadcaster.egg-info
+[6.198s] writing static_tf_broadcaster.egg-info/PKG-INFO
+[6.203s] writing dependency_links to static_tf_broadcaster.egg-info/dependency_links.txt
+[6.205s] writing entry points to static_tf_broadcaster.egg-info/entry_points.txt
+[6.205s] writing requirements to static_tf_broadcaster.egg-info/requires.txt
+[6.210s] writing top-level names to static_tf_broadcaster.egg-info/top_level.txt
+[6.212s] writing manifest file 'static_tf_broadcaster.egg-info/SOURCES.txt'
+[6.216s] reading manifest file 'static_tf_broadcaster.egg-info/SOURCES.txt'
+[6.220s] writing manifest file 'static_tf_broadcaster.egg-info/SOURCES.txt'
+[6.229s] running build_ext
+[6.233s] Creating /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/python3.10/site-packages/static-tf-broadcaster.egg-link (link to .)
+[6.239s] Installing static_tf_node script to /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/static_tf_broadcaster
+[6.241s] 
+[6.241s] Installed /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster
+[6.242s] running symlink_data
+[6.243s] creating /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/launch
+[6.244s] symbolically linking /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/launch/static_tf_launch.py -> /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/launch
+[6.244s] symbolically linking /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/package.xml -> /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster
+[6.514s] Invoked command in '/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/build --no-deps symlink_data

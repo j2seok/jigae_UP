@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating encoder_imu_ekf.egg-info
+writing encoder_imu_ekf.egg-info/PKG-INFO
+writing dependency_links to encoder_imu_ekf.egg-info/dependency_links.txt
+writing entry points to encoder_imu_ekf.egg-info/entry_points.txt
+writing requirements to encoder_imu_ekf.egg-info/requires.txt
+writing top-level names to encoder_imu_ekf.egg-info/top_level.txt
+writing manifest file 'encoder_imu_ekf.egg-info/SOURCES.txt'
+reading manifest file 'encoder_imu_ekf.egg-info/SOURCES.txt'
+writing manifest file 'encoder_imu_ekf.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder-imu-ekf.egg-link (link to .)
+Installing serial_imu_encoder_node script to /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/encoder_imu_ekf
+
+Installed /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf
+running symlink_data
+creating /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/launch
+symbolically linking /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/launch/ekf_with_serial.launch.py -> /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/launch
+creating /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/config
+symbolically linking /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/config/ekf.yaml -> /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/config
+symbolically linking /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/package.xml -> /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf

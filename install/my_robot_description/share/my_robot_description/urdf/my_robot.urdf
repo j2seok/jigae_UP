@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<robot name="multi_sensor_robot" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <!-- =========================
+       파라미터(실측으로 교체 가능)
+       ========================= -->
+  <!-- 변동점: 본체 크기 -->
+  <xacro:property name="base_len" value="0.40"/>  <!-- 차체 길이(포크 제외) -->
+  <xacro:property name="base_wid" value="0.30"/>  <!-- 차체 폭 -->
+  <xacro:property name="base_hgt" value="0.60"/>  <!-- 차체 높이 (시각화만; 충돌 단순화) -->
+
+  <!-- 변동점: 휠/트랙 파라미터 -->
+  <xacro:property name="wheel_rad" value="0.04"/>  <!-- 바퀴 반지름 -->
+  <xacro:property name="wheel_wid" value="0.07"/>  <!-- 바퀴 폭(실제 시각화용 두께) -->
+  <xacro:property name="wheelbase" value="0.153"/> <!-- 앞/뒤 바퀴 x 오프셋(센터→바퀴) -->
+  <xacro:property name="track"     value="0.190"/> <!-- 좌/우 바퀴 y 오프셋(센터→바퀴) -->
+
+  <!-- 변동점: 센서 위치 파라미터 -->
+  <xacro:property name="lidar_x"   value="0.17"/>
+  <xacro:property name="lidar_z"   value="0.60"/>
+  <xacro:property name="imu_z"     value="0.05"/>
+  <xacro:property name="camera_x"  value="0.10"/>
+  <xacro:property name="camera_z"  value="0.10"/>
+
+  <!-- ✅ Base link (구조 유지, 치수만 파라미터화) -->
+  <link name="base_link">
+    <visual>
+      <!-- 변동점: 고정값 → 파라미터 -->
+      <geometry>
+        <box size="${base_len} ${base_wid} ${base_hgt}"/>
+      </geometry>
+      <material name="gray"><color rgba="0.6 0.6 0.6 1"/></material>
+    </visual>
+  </link>
+
+  <!-- ✅ 4 Wheels (기존 매크로 구조 유지) -->
+  <!-- 변동점: 바퀴 크기/회전/재질은 그대로, 위치는 파라미터 사용 -->
+  <xacro:macro name="wheel" params="name xyz">
+    <link name="${name}">
+      <visual>
+        <geometry>
+          <!-- 변동점: wheel_rad / wheel_wid 파라미터 적용 -->
+          <cylinder radius="${wheel_rad}" length="${wheel_wid}"/>
+        </geometry>
+        <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+        <material name="black"><color rgba="0.1 0.1 0.1 1"/></material>
+      </visual>
+    </link>
+    <joint name="${name}_joint" type="fixed">
+      <parent link="base_link"/>
+      <child link="${name}"/>
+      <origin xyz="${xyz}" rpy="0 0 0"/>
+    </joint>
+  </xacro:macro>
+
+  <!-- 변동점: 휠 위치 = (±wheelbase, ±track, -wheel_rad) -->
+  <xacro:wheel name="front_left_wheel"  xyz="${wheelbase}  ${track}  ${-wheel_rad}"/>
+  <xacro:wheel name="front_right_wheel" xyz="${wheelbase}  ${-track} ${-wheel_rad}"/>
+  <xacro:wheel name="rear_left_wheel"   xyz="${-wheelbase} ${track}  ${-wheel_rad}"/>
+  <xacro:wheel name="rear_right_wheel"  xyz="${-wheelbase} ${-track} ${-wheel_rad}"/>
+
+  <!-- ✅ IMU (구조 유지, 위치 파라미터화) -->
+  <link name="imu_link">
+    <visual>
+      <geometry>
+        <box size="0.04 0.04 0.02"/>
+      </geometry>
+      <material name="green"><color rgba="0 1 0 1"/></material>
+    </visual>
+  </link>
+  <joint name="imu_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="imu_link"/>
+    <!-- 변동점: z = imu_z -->
+    <origin xyz="0 0 ${imu_z}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ✅ Camera (구조 유지, 위치 파라미터화) -->
+  <link name="camera_link">
+    <visual>
+      <geometry>
+        <box size="0.05 0.05 0.05"/>
+      </geometry>
+      <material name="blue"><color rgba="0 0 1 1"/></material>
+    </visual>
+  </link>
+  <joint name="camera_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <!-- 변동점: (camera_x, 0, camera_z) -->
+    <origin xyz="${camera_x} 0 ${camera_z}" rpy="0 0 0"/>
+  </joint>
+
+  <!-- ✅ Lidar (구조 유지, 위치 파라미터화) -->
+  <link name="lidar_link">
+    <visual>
+      <geometry>
+        <cylinder radius="0.05" length="0.03"/>
+      </geometry>
+      <origin xyz="0 0 0" rpy="1.5708 0 0"/>
+      <material name="red"><color rgba="1 0 0 1"/></material>
+    </visual>
+  </link>
+  <joint name="lidar_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="lidar_link"/>
+    <!-- 변동점: (lidar_x, 0, lidar_z) -->
+    <origin xyz="${lidar_x} 0 ${lidar_z}" rpy="0 0 0"/>
+  </joint>
+
+</robot>

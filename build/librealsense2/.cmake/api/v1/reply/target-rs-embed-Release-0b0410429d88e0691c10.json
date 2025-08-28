@@ -1,0 +1,397 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Release/rs-embed"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"add_definitions",
+			"global_set_flags",
+			"include",
+			"include_directories",
+			"target_link_libraries",
+			"set_property"
+		],
+		"files" : 
+		[
+			"tools/embed/CMakeLists.txt",
+			"CMake/global_config.cmake",
+			"CMakeLists.txt",
+			"CMake/external_libcurl.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 48,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 31,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 59,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 47,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 4
+			},
+			{
+				"file" : 3,
+				"parent" : 9
+			},
+			{
+				"command" : 2,
+				"file" : 3,
+				"line" : 47,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 35,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 23,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 43,
+				"parent" : 4
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 9,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 17,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pedantic -Wno-missing-field-initializers -Wno-switch -Wno-multichar -Wsequence-point -Wformat -Wformat-security -mstrict-align -ftree-vectorize -pthread   -O3 -DNDEBUG -fPIE"
+				},
+				{
+					"fragment" : "-std=gnu++11"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BUILD_EASYLOGGINGPP"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BUILD_SHARED_LIBS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "CHECK_FOR_UPDATES"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "COM_MULTITHREADED"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "EASYLOGGINGPP_ASYNC"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "ELPP_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HWM_OVER_XU"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "RS2_USE_LIBUVC_BACKEND"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "/home/jaeseok/ros2_ws/librealsense"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/tools/embed/rs-embed"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/lz4"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/tools/embed/../../third-party"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/tclap/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					19
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread   -O3 -DNDEBUG -fPIE"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BUILD_EASYLOGGINGPP"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BUILD_SHARED_LIBS"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "CHECK_FOR_UPDATES"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "COM_MULTITHREADED"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "EASYLOGGINGPP_ASYNC"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "ELPP_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "HWM_OVER_XU"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "RS2_USE_LIBUVC_BACKEND"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "UNICODE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "/home/jaeseok/ros2_ws/librealsense"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/tools/embed/rs-embed"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/lz4"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/tools/embed/../../third-party"
+				},
+				{
+					"backtrace" : 18,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/tclap/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Tools"
+	},
+	"id" : "rs-embed::@fe80b92fa8f78b4fbd4f",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "/home/jaeseok/ros2_ws/install/librealsense2/bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/jaeseok/ros2_ws/install/librealsense2"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-pedantic -Wno-missing-field-initializers -Wno-switch -Wno-multichar -Wsequence-point -Wformat -Wformat-security -mstrict-align -ftree-vectorize -pthread   -O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "rs-embed",
+	"nameOnDisk" : "rs-embed",
+	"paths" : 
+	{
+		"build" : "tools/embed",
+		"source" : "tools/embed"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tools/embed/rs-embed.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "third-party/realsense-file/lz4/lz4.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "third-party/realsense-file/lz4/lz4.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

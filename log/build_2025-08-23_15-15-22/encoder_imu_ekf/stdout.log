@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/PKG-INFO
+writing dependency_links to ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/dependency_links.txt
+writing entry points to ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/entry_points.txt
+writing requirements to ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/requires.txt
+writing top-level names to ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/top_level.txt
+reading manifest file '../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/SOURCES.txt'
+writing manifest file '../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info/SOURCES.txt'
+running build
+running build_py
+copying encoder_imu_ekf/serial_imu_encoder_node.py -> /home/jaeseok/ros2_ws/build/encoder_imu_ekf/build/lib/encoder_imu_ekf
+running install
+running install_lib
+copying /home/jaeseok/ros2_ws/build/encoder_imu_ekf/build/lib/encoder_imu_ekf/serial_imu_encoder_node.py -> /home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder_imu_ekf
+byte-compiling /home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder_imu_ekf/serial_imu_encoder_node.py to serial_imu_encoder_node.cpython-310.pyc
+running install_data
+copying launch/ekf_with_serial.launch.py -> /home/jaeseok/ros2_ws/install/encoder_imu_ekf/share/encoder_imu_ekf/launch
+running install_egg_info
+removing '/home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder_imu_ekf-0.0.1-py3.10.egg-info' (and everything under it)
+Copying ../../build/encoder_imu_ekf/encoder_imu_ekf.egg-info to /home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder_imu_ekf-0.0.1-py3.10.egg-info
+running install_scripts
+Installing serial_imu_encoder_node script to /home/jaeseok/ros2_ws/install/encoder_imu_ekf/lib/encoder_imu_ekf
+writing list of installed files to '/home/jaeseok/ros2_ws/build/encoder_imu_ekf/install.log'

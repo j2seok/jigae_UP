@@ -1,0 +1,24 @@
+[4.271s] Invoking command in '/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/build --no-deps symlink_data
+[5.623s] running develop
+[6.079s] running egg_info
+[6.079s] creating encoder_imu_ekf.egg-info
+[6.090s] writing encoder_imu_ekf.egg-info/PKG-INFO
+[6.093s] writing dependency_links to encoder_imu_ekf.egg-info/dependency_links.txt
+[6.094s] writing entry points to encoder_imu_ekf.egg-info/entry_points.txt
+[6.095s] writing requirements to encoder_imu_ekf.egg-info/requires.txt
+[6.098s] writing top-level names to encoder_imu_ekf.egg-info/top_level.txt
+[6.106s] writing manifest file 'encoder_imu_ekf.egg-info/SOURCES.txt'
+[6.113s] reading manifest file 'encoder_imu_ekf.egg-info/SOURCES.txt'
+[6.115s] writing manifest file 'encoder_imu_ekf.egg-info/SOURCES.txt'
+[6.122s] running build_ext
+[6.123s] Creating /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/python3.10/site-packages/encoder-imu-ekf.egg-link (link to .)
+[6.127s] Installing serial_imu_encoder_node script to /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/encoder_imu_ekf
+[6.129s] 
+[6.130s] Installed /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf
+[6.130s] running symlink_data
+[6.131s] creating /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/launch
+[6.132s] symbolically linking /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/launch/ekf_with_serial.launch.py -> /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/launch
+[6.133s] creating /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/config
+[6.134s] symbolically linking /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/config/ekf.yaml -> /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf/config
+[6.135s] symbolically linking /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/package.xml -> /home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/share/encoder_imu_ekf
+[6.370s] Invoked command in '/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/encoder_imu_ekf/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/jaeseok/ros2_ws/src/build/encoder_imu_ekf/build --no-deps symlink_data

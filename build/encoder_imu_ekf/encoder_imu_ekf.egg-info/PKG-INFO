@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: encoder-imu-ekf
+Version: 0.0.1
+Summary: Serial IMU + Encoder fusion (robot_localization EKF)
+Home-page: UNKNOWN
+Maintainer: jaeseok
+Maintainer-email: you@example.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

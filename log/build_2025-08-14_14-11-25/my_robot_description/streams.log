@@ -1,0 +1,33 @@
+[0.078s] Invoking command in '/home/jaeseok/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/pallet_align:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --build /home/jaeseok/ros2_ws/build/my_robot_description -- -j6 -l6
+[0.146s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.562s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.778s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.779s] -- Added test 'lint_cmake' to check CMake code style
+[0.779s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.783s] -- Added test 'xmllint' to check XML markup files
+[0.784s] -- Configuring done
+[0.801s] -- Generating done
+[0.815s] -- Build files have been written to: /home/jaeseok/ros2_ws/build/my_robot_description
+[0.895s] Invoked command in '/home/jaeseok/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/pallet_align:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --build /home/jaeseok/ros2_ws/build/my_robot_description -- -j6 -l6
+[0.931s] Invoking command in '/home/jaeseok/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/pallet_align:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --install /home/jaeseok/ros2_ws/build/my_robot_description
+[0.961s] -- Install configuration: ""
+[0.962s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description//launch
+[0.962s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description//launch/display_model.launch.py
+[0.962s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description//urdf
+[0.963s] -- Installing: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description//urdf/my_robot.urdf
+[0.963s] -- Installing: /home/jaeseok/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.963s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.964s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.964s] -- Installing: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.964s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.964s] -- Installing: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.965s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.965s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.965s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.965s] -- Installing: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.965s] -- Installing: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[0.966s] -- Up-to-date: /home/jaeseok/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.966s] -- Installing: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.966s] -- Installing: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.966s] -- Installing: /home/jaeseok/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[0.976s] Invoked command in '/home/jaeseok/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/jaeseok/ros2_ws/install/pallet_align:/home/jaeseok/ros2_ws/install/motor_control:/home/jaeseok/ros2_ws/install/encoder_imu_ekf:/opt/ros/humble /usr/bin/cmake --install /home/jaeseok/ros2_ws/build/my_robot_description

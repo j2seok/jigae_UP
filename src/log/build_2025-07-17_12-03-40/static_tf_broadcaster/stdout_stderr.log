@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating static_tf_broadcaster.egg-info
+writing static_tf_broadcaster.egg-info/PKG-INFO
+writing dependency_links to static_tf_broadcaster.egg-info/dependency_links.txt
+writing entry points to static_tf_broadcaster.egg-info/entry_points.txt
+writing requirements to static_tf_broadcaster.egg-info/requires.txt
+writing top-level names to static_tf_broadcaster.egg-info/top_level.txt
+writing manifest file 'static_tf_broadcaster.egg-info/SOURCES.txt'
+reading manifest file 'static_tf_broadcaster.egg-info/SOURCES.txt'
+writing manifest file 'static_tf_broadcaster.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/python3.10/site-packages/static-tf-broadcaster.egg-link (link to .)
+Installing static_tf_node script to /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/lib/static_tf_broadcaster
+
+Installed /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster
+running symlink_data
+creating /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/launch
+symbolically linking /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/launch/static_tf_launch.py -> /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster/launch
+symbolically linking /home/jaeseok/ros2_ws/src/build/static_tf_broadcaster/package.xml -> /home/jaeseok/ros2_ws/src/install/static_tf_broadcaster/share/static_tf_broadcaster

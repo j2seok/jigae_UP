@@ -1,0 +1,3732 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Release/librealsense2.so"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"include",
+			"target_link_libraries",
+			"global_target_config",
+			"add_definitions",
+			"global_set_flags",
+			"include_directories",
+			"target_include_directories",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMake/install_config.cmake",
+			"CMake/global_config.cmake",
+			"CMake/external_libcurl.cmake",
+			"src/libuvc/CMakeLists.txt",
+			"src/CMakeLists.txt",
+			"include/CMakeLists.txt",
+			"src/core/CMakeLists.txt",
+			"src/ds/d400/CMakeLists.txt",
+			"src/ds/CMakeLists.txt",
+			"src/ds/d500/CMakeLists.txt",
+			"src/media/CMakeLists.txt",
+			"src/proc/sse/CMakeLists.txt",
+			"src/proc/CMakeLists.txt",
+			"src/proc/neon/CMakeLists.txt",
+			"src/res/CMakeLists.txt",
+			"src/pipeline/CMakeLists.txt",
+			"src/usb/CMakeLists.txt",
+			"src/fw-logs/CMakeLists.txt",
+			"src/fw-update/CMakeLists.txt",
+			"src/libusb/CMakeLists.txt",
+			"src/hid/CMakeLists.txt",
+			"src/uvc/CMakeLists.txt",
+			"src/rsusb-backend/CMakeLists.txt",
+			"third-party/easyloggingpp/CMakeLists.txt",
+			"third-party/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 51,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 96,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 20,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 94,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 88,
+				"parent" : 6
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 31,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 59,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 80,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 47,
+				"parent" : 8
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 79,
+				"parent" : 8
+			},
+			{
+				"file" : 3,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 47,
+				"parent" : 14
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 35,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 23,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 43,
+				"parent" : 8
+			},
+			{
+				"command" : 5,
+				"file" : 2,
+				"line" : 84,
+				"parent" : 8
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 2,
+				"line" : 92,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			},
+			{
+				"file" : 5,
+				"parent" : 22
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 49,
+				"parent" : 23
+			},
+			{
+				"file" : 4,
+				"parent" : 24
+			},
+			{
+				"command" : 3,
+				"file" : 4,
+				"line" : 12,
+				"parent" : 25
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"file" : 6,
+				"parent" : 27
+			},
+			{
+				"command" : 9,
+				"file" : 6,
+				"line" : 3,
+				"parent" : 28
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 4,
+				"parent" : 23
+			},
+			{
+				"file" : 7,
+				"parent" : 30
+			},
+			{
+				"command" : 9,
+				"file" : 7,
+				"line" : 3,
+				"parent" : 31
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 5,
+				"parent" : 23
+			},
+			{
+				"file" : 9,
+				"parent" : 33
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 4,
+				"parent" : 34
+			},
+			{
+				"file" : 8,
+				"parent" : 35
+			},
+			{
+				"command" : 9,
+				"file" : 8,
+				"line" : 3,
+				"parent" : 36
+			},
+			{
+				"command" : 2,
+				"file" : 9,
+				"line" : 5,
+				"parent" : 34
+			},
+			{
+				"file" : 10,
+				"parent" : 38
+			},
+			{
+				"command" : 9,
+				"file" : 10,
+				"line" : 3,
+				"parent" : 39
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 7,
+				"parent" : 34
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 6,
+				"parent" : 23
+			},
+			{
+				"file" : 11,
+				"parent" : 42
+			},
+			{
+				"command" : 9,
+				"file" : 11,
+				"line" : 3,
+				"parent" : 43
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 7,
+				"parent" : 23
+			},
+			{
+				"file" : 13,
+				"parent" : 45
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 9,
+				"parent" : 46
+			},
+			{
+				"file" : 12,
+				"parent" : 47
+			},
+			{
+				"command" : 9,
+				"file" : 12,
+				"line" : 3,
+				"parent" : 48
+			},
+			{
+				"command" : 2,
+				"file" : 13,
+				"line" : 11,
+				"parent" : 46
+			},
+			{
+				"file" : 14,
+				"parent" : 50
+			},
+			{
+				"command" : 9,
+				"file" : 14,
+				"line" : 3,
+				"parent" : 51
+			},
+			{
+				"command" : 9,
+				"file" : 13,
+				"line" : 13,
+				"parent" : 46
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 8,
+				"parent" : 23
+			},
+			{
+				"file" : 15,
+				"parent" : 54
+			},
+			{
+				"command" : 9,
+				"file" : 15,
+				"line" : 3,
+				"parent" : 55
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 9,
+				"parent" : 23
+			},
+			{
+				"file" : 16,
+				"parent" : 57
+			},
+			{
+				"command" : 9,
+				"file" : 16,
+				"line" : 3,
+				"parent" : 58
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 10,
+				"parent" : 23
+			},
+			{
+				"file" : 17,
+				"parent" : 60
+			},
+			{
+				"command" : 9,
+				"file" : 17,
+				"line" : 3,
+				"parent" : 61
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 11,
+				"parent" : 23
+			},
+			{
+				"file" : 18,
+				"parent" : 63
+			},
+			{
+				"command" : 9,
+				"file" : 18,
+				"line" : 3,
+				"parent" : 64
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 12,
+				"parent" : 23
+			},
+			{
+				"file" : 19,
+				"parent" : 66
+			},
+			{
+				"command" : 9,
+				"file" : 19,
+				"line" : 3,
+				"parent" : 67
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 17,
+				"parent" : 23
+			},
+			{
+				"file" : 20,
+				"parent" : 69
+			},
+			{
+				"command" : 9,
+				"file" : 20,
+				"line" : 3,
+				"parent" : 70
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 43,
+				"parent" : 23
+			},
+			{
+				"file" : 21,
+				"parent" : 72
+			},
+			{
+				"command" : 9,
+				"file" : 21,
+				"line" : 3,
+				"parent" : 73
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 44,
+				"parent" : 23
+			},
+			{
+				"file" : 22,
+				"parent" : 75
+			},
+			{
+				"command" : 9,
+				"file" : 22,
+				"line" : 3,
+				"parent" : 76
+			},
+			{
+				"command" : 2,
+				"file" : 5,
+				"line" : 45,
+				"parent" : 23
+			},
+			{
+				"file" : 23,
+				"parent" : 78
+			},
+			{
+				"command" : 9,
+				"file" : 23,
+				"line" : 4,
+				"parent" : 79
+			},
+			{
+				"command" : 9,
+				"file" : 4,
+				"line" : 4,
+				"parent" : 25
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 61,
+				"parent" : 23
+			},
+			{
+				"command" : 9,
+				"file" : 5,
+				"line" : 64,
+				"parent" : 23
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 69,
+				"parent" : 0
+			},
+			{
+				"file" : 25,
+				"parent" : 84
+			},
+			{
+				"command" : 2,
+				"file" : 25,
+				"line" : 13,
+				"parent" : 85
+			},
+			{
+				"file" : 24,
+				"parent" : 86
+			},
+			{
+				"command" : 9,
+				"file" : 24,
+				"line" : 1,
+				"parent" : 87
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : " -pedantic -Wno-missing-field-initializers -Wno-switch -Wno-multichar -Wsequence-point -Wformat -Wformat-security -mstrict-align -ftree-vectorize -pthread   -O3 -DNDEBUG -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "BUILD_EASYLOGGINGPP"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "BUILD_SHARED_LIBS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CHECK_FOR_UPDATES"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "COM_MULTITHREADED"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "EASYLOGGINGPP_ASYNC"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ELPP_NO_DEFAULT_LOG_FILE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "ELPP_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "HWM_OVER_XU"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "RS2_USE_LIBUVC_BACKEND"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "realsense2_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "/home/jaeseok/ros2_ws/librealsense"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/src"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/console_bridge/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/cpp_common/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/rosbag_storage/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/roscpp_serialization/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/rostime/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/roscpp_traits/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/roslz4/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/msgs"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/lz4/lib"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/usr/include/libusb-1.0"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/rsutils/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jaeseok/ros2_ws/build/librealsense2/third-party/json/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				45,
+				49,
+				53,
+				56,
+				58,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				142,
+				144,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156,
+				157,
+				158,
+				159,
+				166,
+				167,
+				169,
+				171,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				241,
+				242,
+				243,
+				244,
+				257,
+				259,
+				261,
+				263,
+				265,
+				269,
+				271,
+				273,
+				275,
+				279,
+				281,
+				283,
+				285,
+				286,
+				290,
+				293,
+				295,
+				297,
+				298,
+				300,
+				303,
+				304,
+				305,
+				306,
+				308,
+				309,
+				310,
+				311,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				339,
+				340,
+				341,
+				342,
+				359,
+				365,
+				402,
+				421,
+				422
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "   -pedantic -D_DEFAULT_SOURCE   -mstrict-align -ftree-vectorize -pthread   -O3 -DNDEBUG -fPIC"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 9,
+					"define" : "BUILD_EASYLOGGINGPP"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "BUILD_SHARED_LIBS"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "CHECK_FOR_UPDATES"
+				},
+				{
+					"backtrace" : 12,
+					"define" : "COM_MULTITHREADED"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "CURL_STATICLIB"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "EASYLOGGINGPP_ASYNC"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "ELPP_NO_DEFAULT_LOG_FILE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "ELPP_THREAD_SAFE"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "HWM_OVER_XU"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "RS2_USE_LIBUVC_BACKEND"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "UNICODE"
+				},
+				{
+					"define" : "realsense2_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "/home/jaeseok/ros2_ws/librealsense"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/src"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/console_bridge/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/cpp_common/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/rosbag_storage/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/roscpp_serialization/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/rostime/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/roscpp_traits/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/roslz4/include"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/rosbag/msgs"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/realsense-file/lz4/lib"
+				},
+				{
+					"backtrace" : 21,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/include"
+				},
+				{
+					"backtrace" : 26,
+					"path" : "/usr/include/libusb-1.0"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jaeseok/ros2_ws/librealsense/third-party/rsutils/include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "/home/jaeseok/ros2_ws/build/librealsense2/third-party/json/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				338
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 5,
+			"id" : "rsutils::@7bdc9af287c8f56d444a"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "realsense-file::@5533e881b3d6781fcfa6"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "Library"
+	},
+	"id" : "realsense2::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 4,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/jaeseok/ros2_ws/install/librealsense2"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "Release/librsutils.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "Release/librealsense-file.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/aarch64-linux-gnu/libusb-1.0.so",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "realsense2",
+	"nameOnDisk" : "librealsense2.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				46,
+				47,
+				48,
+				50,
+				51,
+				52,
+				54,
+				55,
+				57,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+				112,
+				113,
+				114,
+				115,
+				129,
+				130,
+				131,
+				132,
+				133,
+				134,
+				135,
+				136,
+				137,
+				138,
+				139,
+				140,
+				141,
+				143,
+				145,
+				147,
+				149,
+				151,
+				153,
+				155,
+				160,
+				161,
+				162,
+				163,
+				164,
+				165,
+				168,
+				170,
+				172,
+				208,
+				209,
+				210,
+				211,
+				212,
+				213,
+				214,
+				215,
+				216,
+				217,
+				218,
+				219,
+				220,
+				221,
+				222,
+				223,
+				224,
+				225,
+				226,
+				227,
+				228,
+				229,
+				230,
+				231,
+				232,
+				233,
+				234,
+				235,
+				236,
+				237,
+				238,
+				239,
+				240,
+				245,
+				246,
+				247,
+				248,
+				249,
+				250,
+				251,
+				252,
+				253,
+				254,
+				255,
+				256,
+				258,
+				260,
+				262,
+				264,
+				266,
+				267,
+				268,
+				270,
+				272,
+				274,
+				276,
+				277,
+				278,
+				280,
+				282,
+				284,
+				287,
+				288,
+				289,
+				291,
+				292,
+				294,
+				296,
+				299,
+				301,
+				307,
+				312,
+				328,
+				343,
+				344,
+				345,
+				346,
+				347,
+				348,
+				349,
+				350,
+				351,
+				352,
+				353,
+				354,
+				355,
+				356,
+				357,
+				358,
+				360,
+				361,
+				362,
+				363,
+				364,
+				366,
+				367,
+				368,
+				369,
+				370,
+				371,
+				372,
+				373,
+				374,
+				375,
+				376,
+				377,
+				378,
+				379,
+				380,
+				381,
+				382,
+				383,
+				384,
+				385,
+				386,
+				387,
+				388,
+				389,
+				390,
+				391,
+				392,
+				393,
+				394,
+				395,
+				396,
+				397,
+				398,
+				399,
+				400,
+				401,
+				403,
+				404,
+				405,
+				406,
+				407,
+				408,
+				409,
+				410,
+				411,
+				412,
+				413,
+				414,
+				415,
+				416,
+				417,
+				418,
+				419,
+				420,
+				423
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				45,
+				49,
+				53,
+				56,
+				58,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				116,
+				117,
+				118,
+				119,
+				120,
+				121,
+				122,
+				123,
+				124,
+				125,
+				126,
+				127,
+				128,
+				142,
+				144,
+				146,
+				148,
+				150,
+				152,
+				154,
+				156,
+				157,
+				158,
+				159,
+				166,
+				167,
+				169,
+				171,
+				173,
+				174,
+				175,
+				176,
+				177,
+				178,
+				179,
+				180,
+				181,
+				182,
+				183,
+				184,
+				185,
+				186,
+				187,
+				188,
+				189,
+				190,
+				191,
+				192,
+				193,
+				194,
+				195,
+				196,
+				197,
+				198,
+				199,
+				200,
+				201,
+				202,
+				203,
+				204,
+				205,
+				206,
+				207,
+				241,
+				242,
+				243,
+				244,
+				257,
+				259,
+				261,
+				263,
+				265,
+				269,
+				271,
+				273,
+				275,
+				279,
+				281,
+				283,
+				285,
+				286,
+				290,
+				293,
+				295,
+				297,
+				298,
+				300,
+				302,
+				303,
+				304,
+				305,
+				306,
+				308,
+				309,
+				310,
+				311,
+				313,
+				314,
+				315,
+				316,
+				317,
+				318,
+				319,
+				320,
+				321,
+				322,
+				323,
+				324,
+				325,
+				326,
+				327,
+				329,
+				330,
+				331,
+				332,
+				333,
+				334,
+				335,
+				336,
+				337,
+				338,
+				339,
+				340,
+				341,
+				342,
+				359,
+				365,
+				402,
+				421,
+				422
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/rs.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/rs.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_context.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_frame.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_option.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_processing.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_record_playback.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_internal.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_pipeline.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/h/rs_advanced_mode_command.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_types.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_context.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_device.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_serializable_device.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_export.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_frame.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_processing.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_record_playback.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_sensor.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_options.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_internal.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/hpp/rs_pipeline.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/rsutil.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/rs_advanced_mode.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 29,
+			"path" : "include/librealsense2/rs_advanced_mode.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/debug.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/advanced_mode.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/enum-helpers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/depth-frame.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/device-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/disparity-frame.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/frame-continuation.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/frame-additional-data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/frame-callback.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/frame-header.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/frame-holder.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/frame-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/frame-processor-callback.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/info-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/roi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/matcher-factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/matcher-factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/motion.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/motion-frame.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/notification.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/notification.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/video.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/video-frame.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/options-container.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/options-container.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/options-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/options-registry.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/options-registry.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/options-watcher.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"compileGroupIndex" : 0,
+			"path" : "src/core/options-watcher.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/extension.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/pose-frame.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/pp-block-factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/processing-block-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/recommended-processing-blocks-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/sensor-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/serialization.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/stream-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/stream-profile.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/stream-profile-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/synthetic-source-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/tagged-profile.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/has-features-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 32,
+			"path" : "src/core/features-container.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-options.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-private.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-motion.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-nonmonochrome.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-color.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-active.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-fw-update-device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d400/d400-auto-calibration.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-options.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-private.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-active.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-motion.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-nonmonochrome.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-color.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-fw-update-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 37,
+			"path" : "src/ds/d400/d400-auto-calibration.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-color.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-motion.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-active.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-private.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/hw_monitor_extended_buffers.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-options.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-fw-update-device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-auto-calibration.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/d500/d500-debug-protocol-calibration-engine.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-color.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-motion.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-active.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-private.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/hw_monitor_extended_buffers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-options.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-fw-update-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-auto-calibration.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 40,
+			"path" : "src/ds/d500/d500-debug-protocol-calibration-engine.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-device-common.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-motion-common.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-color-common.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-active-common.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-private.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-timestamp.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-options.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/advanced_mode/rs_advanced_mode.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/advanced_mode/presets.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/advanced_mode/advanced_mode.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-calib-parsers.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-calib-common.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/ds-thermal-monitor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-device-common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-motion-common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-color-common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-active-common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-private.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-timestamp.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-options.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/advanced_mode/json_loader.hpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/advanced_mode/presets.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-calib-parsers.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-calib-common.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/ds-thermal-monitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/features/amplitude-factor-feature.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/features/amplitude-factor-feature.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/features/emitter-frequency-feature.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/features/emitter-frequency-feature.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/features/auto-exposure-roi-feature.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/features/auto-exposure-roi-feature.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/features/remove-ir-pattern-feature.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/features/remove-ir-pattern-feature.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/features/auto-exposure-limit-feature.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/features/auto-exposure-limit-feature.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/features/gain-limit-feature.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/features/gain-limit-feature.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 41,
+			"path" : "src/ds/features/gyro-sensitivity-feature.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 41,
+			"compileGroupIndex" : 0,
+			"path" : "src/ds/features/gyro-sensitivity-feature.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 44,
+			"path" : "src/media/playback/playback-device-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "src/media/record/record_device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "src/media/record/record_sensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "src/media/playback/playback_device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "src/media/playback/playback_sensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 44,
+			"path" : "src/media/record/record_device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"path" : "src/media/record/record_sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"path" : "src/media/playback/playback_device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"path" : "src/media/playback/playback_sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"path" : "src/media/ros/ros_reader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"path" : "src/media/ros/ros_writer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "src/media/ros/ros_reader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 44,
+			"compileGroupIndex" : 0,
+			"path" : "src/media/ros/ros_writer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 44,
+			"path" : "src/media/ros/ros_file_format.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/sse/sse-align.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"path" : "src/proc/sse/sse-align.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 49,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/sse/sse-pointcloud.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 49,
+			"path" : "src/proc/sse/sse-pointcloud.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/neon/image-neon.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/neon/neon-pointcloud.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 52,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/neon/neon-align.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/processing-blocks-factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/align.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/colorizer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/pointcloud.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/occlusion-filter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/synthetic-stream.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/syncer-processing-block.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/decimation-filter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/rotation-filter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/spatial-filter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/temporal-filter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/hdr-merge.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/sequence-id-filter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/hole-filling-filter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/disparity-transform.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/y8i-to-y8y8.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/y8i-to-y8y8-mipi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/y12i-to-y16y16.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/y12i-to-y16y16-mipi.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/y16i-10msb-to-y16y16.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/y16-10msb-to-y16.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/identity-processing-block.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/threshold.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/rates-printer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/units-transform.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/rotation-transform.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/color-formats-converter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/depth-formats-converter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/motion-transform.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/auto-exposure-processor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/y411-converter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"compileGroupIndex" : 0,
+			"path" : "src/proc/formats-converter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/processing-blocks-factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/align.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/colorizer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/pointcloud.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/occlusion-filter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/synthetic-stream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/decimation-filter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/rotation-filter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/spatial-filter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/temporal-filter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/hdr-merge.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/sequence-id-filter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/hole-filling-filter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/syncer-processing-block.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/disparity-transform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/y8i-to-y8y8.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/y8i-to-y8y8-mipi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/y12i-to-y16y16.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/y12i-to-y16y16-mipi.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/y16i-10msb-to-y16y16.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/y16-10msb-to-y16.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/identity-processing-block.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/threshold.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/rates-printer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/units-transform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/rotation-transform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/color-formats-converter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/depth-formats-converter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/motion-transform.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/auto-exposure-processor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/y411-converter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 53,
+			"path" : "src/proc/formats-converter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 56,
+			"path" : "src/res/resource.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "src/pipeline/pipeline.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "src/pipeline/config.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "src/pipeline/profile.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"compileGroupIndex" : 0,
+			"path" : "src/pipeline/aggregator.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 59,
+			"path" : "src/pipeline/pipeline.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "src/pipeline/config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "src/pipeline/profile.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "src/pipeline/resolver.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 59,
+			"path" : "src/pipeline/aggregator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/usb/usb-endpoint.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/usb/usb-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/usb/usb-messenger.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/usb/usb-types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/usb/usb-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/usb/usb-enumerator.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 62,
+			"path" : "src/usb/usb-request.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "src/fw-logs/fw-log-data.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"path" : "src/fw-logs/fw-log-data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "src/fw-logs/fw-logs-formatting-options.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"path" : "src/fw-logs/fw-logs-formatting-options.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "src/fw-logs/fw-logs-parser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"path" : "src/fw-logs/fw-logs-parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "src/fw-logs/fw-logs-xml-helper.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"path" : "src/fw-logs/fw-logs-xml-helper.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 65,
+			"compileGroupIndex" : 0,
+			"path" : "src/fw-logs/fw-string-formatter.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 65,
+			"path" : "src/fw-logs/fw-string-formatter.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/fw-update/fw-update-device-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/fw-update/fw-update-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "src/fw-update/fw-update-device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/fw-update/fw-update-factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "src/fw-update/fw-update-factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 68,
+			"path" : "src/fw-update/fw-update-unsigned.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 68,
+			"compileGroupIndex" : 0,
+			"path" : "src/fw-update/fw-update-unsigned.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/libusb/context-libusb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "src/libusb/context-libusb.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/libusb/handle-libusb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/libusb/endpoint-libusb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/libusb/interface-libusb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "src/libusb/interface-libusb.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/libusb/device-libusb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "src/libusb/device-libusb.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/libusb/messenger-libusb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "src/libusb/messenger-libusb.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/libusb/request-libusb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "src/libusb/request-libusb.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"compileGroupIndex" : 0,
+			"path" : "src/libusb/enumerator-libusb.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 71,
+			"path" : "src/libusb/libusb.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "src/hid/hid-types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"path" : "src/hid/hid-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 74,
+			"compileGroupIndex" : 0,
+			"path" : "src/hid/hid-device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"path" : "src/uvc/uvc-types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"path" : "src/uvc/uvc-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "src/uvc/uvc-device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"path" : "src/uvc/uvc-parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "src/uvc/uvc-parser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 77,
+			"path" : "src/uvc/uvc-streamer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 77,
+			"compileGroupIndex" : 0,
+			"path" : "src/uvc/uvc-streamer.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 80,
+			"compileGroupIndex" : 0,
+			"path" : "src/rsusb-backend/rsusb-backend.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 80,
+			"path" : "src/rsusb-backend/rsusb-backend.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 81,
+			"compileGroupIndex" : 0,
+			"path" : "src/libuvc/rsusb-backend-linux.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 81,
+			"path" : "src/libuvc/rsusb-backend-linux.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 82,
+			"path" : "src/realsense.def",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/algo.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/archive.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/backend.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/backend-device-factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/backend-device-factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/context.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/device-info.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/device_hub.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/rscore/device-factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/environment.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/error-handling.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/firmware_logger_device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/global_timestamp_reader.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/hdr-config.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/hw-monitor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/image.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/image-avx.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/log.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/option.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/platform-camera.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/rs.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/sensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/hid-sensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/uvc-sensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/rscore-pp-block-factory.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/rscore-pp-block-factory.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/software-device.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/software-device-info.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/software-sensor.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/source.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/stream.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/sync.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/terminal-parser.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/types.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 1,
+			"path" : "src/verify.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/serialized-utilities.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/frame.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/points.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/to-string.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/algo.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/api.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/archive.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/backend.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/backend-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/backend-device-group.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/platform-device-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/device-watcher.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/frame-object.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/hid-data.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/hid-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/hid-device-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/mipi-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/mipi-device-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/playback-device-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/platform-utils.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/platform/platform-utils.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/stream-profile.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/stream-profile-impl.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/core/time-service.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/uvc-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/uvc-device-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/platform/uvc-option.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/uvc-option.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/context.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/device-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/device_hub.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/environment.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/firmware-version.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/float3.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/log.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/error-handling.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/firmware_logger_device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/frame-archive.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/global_timestamp_reader.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/hdr-config.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/hw-monitor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/image.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/image-avx.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/metadata.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/metadata-parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/option.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform-camera.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/pose.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/hid-sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/uvc-sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/software-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/software-device-info.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/software-sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/source.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/stream.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/sync.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/terminal-parser.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/types.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/platform/command-transfer.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/auto-calibrated-device.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/auto-calibrated-proxy.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/auto-calibrated-proxy.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/calibration-engine-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/device-calibration.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/serializable-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/max-usable-range-sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/debug-stream-sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/serialized-utilities.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/frame.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/composite-frame.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/points.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/depth-sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/color-sensor.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/callback-invocation.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/librealsense-exception.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/polling-device-watcher.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/small-heap.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/basics.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/feature-interface.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"path" : "src/synthetic-options-watcher.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 83,
+			"compileGroupIndex" : 0,
+			"path" : "src/synthetic-options-watcher.cpp",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 88,
+			"compileGroupIndex" : 0,
+			"path" : "third-party/easyloggingpp/src/easylogging++.cc",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 88,
+			"path" : "third-party/easyloggingpp/src/easylogging++.h",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

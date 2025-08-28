@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+launch/static_tf_launch.py
+static_tf_broadcaster.egg-info/PKG-INFO
+static_tf_broadcaster.egg-info/SOURCES.txt
+static_tf_broadcaster.egg-info/dependency_links.txt
+static_tf_broadcaster.egg-info/entry_points.txt
+static_tf_broadcaster.egg-info/requires.txt
+static_tf_broadcaster.egg-info/top_level.txt
+static_tf_broadcaster.egg-info/zip-safe

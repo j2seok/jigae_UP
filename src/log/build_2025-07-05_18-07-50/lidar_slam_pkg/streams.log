@@ -1,0 +1,20 @@
+[1.689s] Invoking command in '/home/jaeseok/ros2_ws/src/lidar_slam_pkg': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_slam_pkg build --build-base /home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/build install --record /home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/install.log --single-version-externally-managed install_data
+[2.271s] running egg_info
+[2.273s] writing ../build/lidar_slam_pkg/lidar_slam_pkg.egg-info/PKG-INFO
+[2.273s] writing dependency_links to ../build/lidar_slam_pkg/lidar_slam_pkg.egg-info/dependency_links.txt
+[2.274s] writing requirements to ../build/lidar_slam_pkg/lidar_slam_pkg.egg-info/requires.txt
+[2.274s] writing top-level names to ../build/lidar_slam_pkg/lidar_slam_pkg.egg-info/top_level.txt
+[2.280s] reading manifest file '../build/lidar_slam_pkg/lidar_slam_pkg.egg-info/SOURCES.txt'
+[2.281s] writing manifest file '../build/lidar_slam_pkg/lidar_slam_pkg.egg-info/SOURCES.txt'
+[2.282s] running build
+[2.282s] running build_py
+[2.282s] running install
+[2.283s] running install_lib
+[2.287s] running install_data
+[2.287s] copying launch/lidar_slam.launch.py -> /home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/share/lidar_slam_pkg/launch
+[2.287s] running install_egg_info
+[2.292s] removing '/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/lib/python3.10/site-packages/lidar_slam_pkg-0.0.1-py3.10.egg-info' (and everything under it)
+[2.293s] Copying ../build/lidar_slam_pkg/lidar_slam_pkg.egg-info to /home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/lib/python3.10/site-packages/lidar_slam_pkg-0.0.1-py3.10.egg-info
+[2.295s] running install_scripts
+[2.356s] writing list of installed files to '/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/install.log'
+[2.475s] Invoked command in '/home/jaeseok/ros2_ws/src/lidar_slam_pkg' returned '0': PYTHONPATH=/home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jaeseok/ros2_ws/src/install/lidar_slam_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/lidar_slam_pkg build --build-base /home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/build install --record /home/jaeseok/ros2_ws/src/build/lidar_slam_pkg/install.log --single-version-externally-managed install_data

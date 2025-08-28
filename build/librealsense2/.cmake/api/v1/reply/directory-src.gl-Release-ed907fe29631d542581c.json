@@ -1,0 +1,154 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"src/gl/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 100,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 108,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 114,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 118,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 123,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 127,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Release/librealsense2-gl.so.2.56.5",
+				"Release/librealsense2-gl.so.2.56"
+			],
+			"targetId" : "realsense2-gl::@1b4b631fec04592731c1",
+			"targetIndex" : 5,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"Release/librealsense2-gl.so"
+			],
+			"targetId" : "realsense2-gl::@1b4b631fec04592731c1",
+			"targetIndex" : 5,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/jaeseok/ros2_ws/install/librealsense2/include/librealsense2-gl",
+			"paths" : 
+			[
+				"src/gl/../../include/librealsense2-gl/rs_processing_gl.h",
+				"src/gl/../../include/librealsense2-gl/rs_processing_gl.hpp"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/realsense2-gl",
+			"exportName" : "realsense2-glTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "realsense2-gl::@1b4b631fec04592731c1",
+					"index" : 5
+				}
+			],
+			"paths" : 
+			[
+				"src/gl/CMakeFiles/Export/lib/cmake/realsense2-gl/realsense2-glTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/realsense2-gl",
+			"paths" : 
+			[
+				"/home/jaeseok/ros2_ws/build/librealsense2/src/gl/realsense2-glConfig.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/realsense2-gl",
+			"paths" : 
+			[
+				"/home/jaeseok/ros2_ws/build/librealsense2/src/gl/realsense2-glConfigVersion.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/home/jaeseok/ros2_ws/build/librealsense2/config/realsense2-gl.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"type" : "code"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "src/gl",
+		"source" : "src/gl"
+	}
+}

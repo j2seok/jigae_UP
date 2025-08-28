@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing pallet_align.egg-info/PKG-INFO
+writing dependency_links to pallet_align.egg-info/dependency_links.txt
+writing entry points to pallet_align.egg-info/entry_points.txt
+writing requirements to pallet_align.egg-info/requires.txt
+writing top-level names to pallet_align.egg-info/top_level.txt
+reading manifest file 'pallet_align.egg-info/SOURCES.txt'
+writing manifest file 'pallet_align.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/jaeseok/ros2_ws/install/pallet_align/lib/python3.10/site-packages/pallet-align.egg-link (link to .)
+Installing aruco_detector_node script to /home/jaeseok/ros2_ws/install/pallet_align/lib/pallet_align
+Installing serial_sender_node script to /home/jaeseok/ros2_ws/install/pallet_align/lib/pallet_align
+
+Installed /home/jaeseok/ros2_ws/build/pallet_align
+running symlink_data
